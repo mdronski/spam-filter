@@ -38,7 +38,8 @@ parse s = do
     let ws3 = fmap (T.pack) ws2;
     let ws4 = fmap (stem English) ws3;
     let ws5 = fmap (T.append (T.pack " ")) ws4
-    TIO.writeFile (s++"_parsed") (foldl1 T.append ws5)
+    let ws6 = drop 80 ws5
+    TIO.writeFile (s++"_parsed") (foldl1 T.append ws6)
     return ()
 
 
@@ -76,7 +77,7 @@ deleteAllEmpties = do
 
 parse_all = do
     files <- System.Directory.getDirectoryContents =<< System.Directory.getCurrentDirectory;
-    let onlyFiles = delete "." $ delete ".." files
+    let onlyFiles = delete "." $ delete ".." $ delete "parser2.hs" files
     repeatNTimes (length onlyFiles) parseCatched onlyFiles
     deleteUnParsed onlyFiles
     deleteAllEmpties
