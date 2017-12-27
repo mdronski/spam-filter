@@ -3,6 +3,8 @@ module Parser
 , prefix
 , parse_all
 , tooLower
+, delete_punctuation_mark
+, parseChar 
 ) where
 import NLP.Snowball
 import qualified Data.Text as T
@@ -28,12 +30,12 @@ parseChar s
 
 delete_punctuation_mark :: String -> String
 delete_punctuation_mark s  
-    | last s == '.' = delete (last s) s
-    | last s == ';' = delete (last s) s
-    | last s == ',' = delete (last s) s
-    | last s == ':' = delete (last s) s
-    | last s == '!' = delete (last s) s
-    | last s == '?' = delete (last s) s
+    | last s == '.' = reverse (delete (last s) (reverse s))
+    | last s == ';' = reverse (delete (last s) (reverse s))
+    | last s == ',' = reverse (delete (last s) (reverse s))
+    | last s == ':' = reverse (delete (last s) (reverse s))
+    | last s == '!' = reverse (delete (last s) (reverse s))
+    | last s == '?' = reverse (delete (last s) (reverse s))
     | otherwise = s
 
 
