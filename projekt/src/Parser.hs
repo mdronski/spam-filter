@@ -57,19 +57,11 @@ tooLower "" = []
 tooLower a = (toLower (head a) ) : (tooLower (tail a))
 
 
-parse s = do 
-    ws0 <- Prelude.readFile s;
-    let ws1 = Prelude.words ws0;
-    let wss = fmap tooLower ws1
-    let ws = fmap delete_punctuation_mark wss;
-    let ws2 = fmap parseChar ws;
-    let ws3 = fmap (T.pack) ws2;
-    let ws4 = fmap (stem English) ws3;
-    let ws5 = fmap (T.append (T.pack " ")) ws4
-    TIO.writeFile (s++"_parsed") (foldl1 T.append ws5)
+parse s = do
+    ws0 <- Prelude.readFile s
+    let ws1 = fmap (T.append (T.pack " ")) . fmap (stem English) . fmap (T.pack) . fmap parseChar . fmap delete_punctuation_mark . fmap tooLower $ Prelude.words ws0
+    TIO.writeFile (s++"_parsed") (foldl1 T.append ws1)
     return ()
-
-
 
 parseCatched s = catch (parse s) handler
     where

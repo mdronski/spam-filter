@@ -40,10 +40,12 @@ library
     , snowball
     , QuickCheck
     , HUnit
+
   exposed-modules:
       Lib
     , Parser
     , Counter
+    , Model
   other-modules:
       Paths_projekt
   default-language: Haskell2010
