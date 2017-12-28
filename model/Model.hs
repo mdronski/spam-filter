@@ -1,3 +1,4 @@
+{-# LANGUAGE FlexibleContexts #-}
 module Model (
     sigmoid,
     readToArray
@@ -27,5 +28,11 @@ readToArray = do
 
     let vectorsMatrix = fmap (convertToVec pattern) emailArray;
 
-    return ( labels)
+    return (vectorsMatrix, labels)
 
+vectorByVector [] [] = 0
+vectorByVector v1 v2 = (head v1)*(head v2) + vectorByVector (tail v1) (tail v2)
+
+
+matrixByVector [] _ = []
+matrixByVector m v = (vectorByVector (head m) v) : (matrixByVector (tail m) v)
