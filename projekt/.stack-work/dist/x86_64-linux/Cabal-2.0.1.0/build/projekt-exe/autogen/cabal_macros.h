@@ -33,17 +33,6 @@
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_projekt */
 
-/* package directory-1.3.0.2 */
-#ifndef VERSION_directory
-#define VERSION_directory "1.3.0.2"
-#endif /* VERSION_directory */
-#ifndef MIN_VERSION_directory
-#define MIN_VERSION_directory(major1,major2,minor) (\
-  (major1) <  1 || \
-  (major1) == 1 && (major2) <  3 || \
-  (major1) == 1 && (major2) == 3 && (minor) <= 0)
-#endif /* MIN_VERSION_directory */
-
 /* tool gcc-5.4.0 */
 #ifndef TOOL_VERSION_gcc
 #define TOOL_VERSION_gcc "5.4.0"
@@ -144,7 +133,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "projekt-0.1.0.0-Gz53prkidLFKsOCrF96pzJ-projekt-exe"
+#define CURRENT_COMPONENT_ID "projekt-0.1.0.0-AKm2zIdlNa9HxGxlOxDBsm-projekt-exe"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

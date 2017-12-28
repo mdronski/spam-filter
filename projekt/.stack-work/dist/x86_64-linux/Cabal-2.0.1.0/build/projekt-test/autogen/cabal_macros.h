@@ -33,28 +33,6 @@
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_projekt */
 
-/* package HUnit-1.6.0.0 */
-#ifndef VERSION_HUnit
-#define VERSION_HUnit "1.6.0.0"
-#endif /* VERSION_HUnit */
-#ifndef MIN_VERSION_HUnit
-#define MIN_VERSION_HUnit(major1,major2,minor) (\
-  (major1) <  1 || \
-  (major1) == 1 && (major2) <  6 || \
-  (major1) == 1 && (major2) == 6 && (minor) <= 0)
-#endif /* MIN_VERSION_HUnit */
-
-/* package QuickCheck-2.10.1 */
-#ifndef VERSION_QuickCheck
-#define VERSION_QuickCheck "2.10.1"
-#endif /* VERSION_QuickCheck */
-#ifndef MIN_VERSION_QuickCheck
-#define MIN_VERSION_QuickCheck(major1,major2,minor) (\
-  (major1) <  2 || \
-  (major1) == 2 && (major2) <  10 || \
-  (major1) == 2 && (major2) == 10 && (minor) <= 1)
-#endif /* MIN_VERSION_QuickCheck */
-
 /* tool gcc-5.4.0 */
 #ifndef TOOL_VERSION_gcc
 #define TOOL_VERSION_gcc "5.4.0"
@@ -155,7 +133,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "projekt-0.1.0.0-Eagyv4ILghvHJmNeZ9CmmQ-projekt-test"
+#define CURRENT_COMPONENT_ID "projekt-0.1.0.0-DJUZIdeJuR63mNjMqzLp3i-projekt-test"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

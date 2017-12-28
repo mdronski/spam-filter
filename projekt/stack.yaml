@@ -1,6 +1,5 @@
 flags: {}
 packages:
 - .
-extra-deps:
-- snowball-1.0.0.1
+extra-deps: []
 resolver: lts-10.0

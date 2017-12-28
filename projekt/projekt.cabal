@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e940e2d483cabd4d98dee7254d778b808489d248b9652dec8a54ee8f058c4229
+-- hash: 59a233b5fb1a1905bef74fd05a90e5e9347b59ba2eff5b3f53811c5212cd2a8f
 
 name:           projekt
 version:        0.1.0.0
@@ -26,24 +26,16 @@ source-repository head
   type: git
   location: https://github.com/githubuser/projekt
 
-
 library
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
-    , bytestring
-    , http-conduit
-    , text-icu
-    , text
-    , directory
-    , snowball
-    , QuickCheck
-    , HUnit
   exposed-modules:
+      Counter
       Lib
-    , Parser
-    , Counter
+      Model
+      Parser
   other-modules:
       Paths_projekt
   default-language: Haskell2010
@@ -56,7 +48,6 @@ executable projekt-exe
   build-depends:
       base >=4.7 && <5
     , projekt
-    , directory
   other-modules:
       Paths_projekt
   default-language: Haskell2010
@@ -70,8 +61,6 @@ test-suite projekt-test
   build-depends:
       base >=4.7 && <5
     , projekt
-    , HUnit
-    , QuickCheck
   other-modules:
       Paths_projekt
   default-language: Haskell2010

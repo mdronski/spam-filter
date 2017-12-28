@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux/lts-10.0/8.2.2/bin"
-libdir     = "/home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/projekt-0.1.0.0-Eagyv4ILghvHJmNeZ9CmmQ-projekt-test"
+libdir     = "/home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/projekt-0.1.0.0-DJUZIdeJuR63mNjMqzLp3i-projekt-test"
 dynlibdir  = "/home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2"
 datadir    = "/home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux/lts-10.0/8.2.2/share/x86_64-linux-ghc-8.2.2/projekt-0.1.0.0"
 libexecdir = "/home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux/lts-10.0/8.2.2/libexec/x86_64-linux-ghc-8.2.2/projekt-0.1.0.0"
