@@ -1,0 +1,46 @@
+Configuring x509-store-1.6.5...
+Preprocessing library for x509-store-1.6.5..
+Building library for x509-store-1.6.5..
+[1 of 3] Compiling Data.X509.CertificateStore ( Data/X509/CertificateStore.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/X509/CertificateStore.o )
+
+Data/X509/CertificateStore.hs:13:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+13 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+[2 of 3] Compiling Data.X509.Memory ( Data/X509/Memory.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/X509/Memory.o )
+[3 of 3] Compiling Data.X509.File   ( Data/X509/File.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/X509/File.o )
+
+Data/X509/File.hs:6:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+  |
+6 | import Control.Applicative
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/X509/File.hs:8:1: warning: [-Wunused-imports]
+    The import of ‘Data.ASN1.BinaryEncoding’ is redundant
+      except perhaps to import instances from ‘Data.ASN1.BinaryEncoding’
+    To import instances alone, use: import Data.ASN1.BinaryEncoding()
+  |
+8 | import Data.ASN1.BinaryEncoding
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/X509/File.hs:9:1: warning: [-Wunused-imports]
+    The import of ‘Data.ASN1.Encoding’ is redundant
+      except perhaps to import instances from ‘Data.ASN1.Encoding’
+    To import instances alone, use: import Data.ASN1.Encoding()
+  |
+9 | import Data.ASN1.Encoding
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/X509/File.hs:13:1: warning: [-Wunused-imports]
+    The import of ‘PEM(pemName)’ from module ‘Data.PEM’ is redundant
+   |
+13 | import Data.PEM (pemParseLBS, pemContent, pemName, PEM)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Installing library in /home/mdronski/.stack/snapshots/x86_64-linux/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/x509-store-1.6.5-IMNLCzWvpNuHSAydQcGm62
+Registering library for x509-store-1.6.5..

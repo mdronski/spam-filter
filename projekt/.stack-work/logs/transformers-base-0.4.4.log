@@ -1,0 +1,14 @@
+Configuring transformers-base-0.4.4...
+Preprocessing library for transformers-base-0.4.4..
+Building library for transformers-base-0.4.4..
+[1 of 1] Compiling Control.Monad.Base ( src/Control/Monad/Base.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Control/Monad/Base.o )
+
+src/Control/Monad/Base.hs:22:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+22 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+Installing library in /home/mdronski/.stack/snapshots/x86_64-linux/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/transformers-base-0.4.4-G4HvRd1GUcNGvZj70uX60w
+Registering library for transformers-base-0.4.4..

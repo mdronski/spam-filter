@@ -1,0 +1,40 @@
+Configuring http-types-0.9.1...
+Preprocessing library for http-types-0.9.1..
+Building library for http-types-0.9.1..
+[1 of 7] Compiling Network.HTTP.Types.Header ( Network/HTTP/Types/Header.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/HTTP/Types/Header.o )
+[2 of 7] Compiling Network.HTTP.Types.Method ( Network/HTTP/Types/Method.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/HTTP/Types/Method.o )
+[3 of 7] Compiling Network.HTTP.Types.Status ( Network/HTTP/Types/Status.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/HTTP/Types/Status.o )
+[4 of 7] Compiling Network.HTTP.Types.URI ( Network/HTTP/Types/URI.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/HTTP/Types/URI.o )
+
+Network/HTTP/Types/URI.hs:148:26: warning: [-Wdeprecations]
+    In the use of ‘breakByte’ (imported from Data.ByteString):
+    Deprecated: "It is an internal function and should never have been exported. Use 'break (== x)' instead. (There are rewrite rules that handle this special case of 'break'.)"
+    |
+148 |             let (k, v) = B.breakByte 61 x -- equal sign
+    |                          ^^^^^^^^^^^
+
+Network/HTTP/Types/URI.hs:283:22: warning: [-Wdeprecations]
+    In the use of ‘breakByte’ (imported from Data.ByteString):
+    Deprecated: "It is an internal function and should never have been exported. Use 'break (== x)' instead. (There are rewrite rules that handle this special case of 'break'.)"
+    |
+283 |         let (x, y) = B.breakByte 47 bs
+    |                      ^^^^^^^^^^^
+
+Network/HTTP/Types/URI.hs:313:20: warning: [-Wdeprecations]
+    In the use of ‘breakByte’ (imported from Data.ByteString):
+    Deprecated: "It is an internal function and should never have been exported. Use 'break (== x)' instead. (There are rewrite rules that handle this special case of 'break'.)"
+    |
+313 |     breakOnSlash = B.breakByte 47
+    |                    ^^^^^^^^^^^
+
+Network/HTTP/Types/URI.hs:325:18: warning: [-Wdeprecations]
+    In the use of ‘breakByte’ (imported from Data.ByteString):
+    Deprecated: "It is an internal function and should never have been exported. Use 'break (== x)' instead. (There are rewrite rules that handle this special case of 'break'.)"
+    |
+325 |     let (x, y) = B.breakByte 63 b -- question mark
+    |                  ^^^^^^^^^^^
+[5 of 7] Compiling Network.HTTP.Types.QueryLike ( Network/HTTP/Types/QueryLike.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/HTTP/Types/QueryLike.o )
+[6 of 7] Compiling Network.HTTP.Types.Version ( Network/HTTP/Types/Version.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/HTTP/Types/Version.o )
+[7 of 7] Compiling Network.HTTP.Types ( Network/HTTP/Types.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/HTTP/Types.o )
+Installing library in /home/mdronski/.stack/snapshots/x86_64-linux/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/http-types-0.9.1-HzyF6muJnmmJbQLAAvdjHQ
+Registering library for http-types-0.9.1..

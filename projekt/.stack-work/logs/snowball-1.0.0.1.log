@@ -1,0 +1,13 @@
+Configuring snowball-1.0.0.1...
+Preprocessing library for snowball-1.0.0.1..
+Building library for snowball-1.0.0.1..
+[1 of 1] Compiling NLP.Snowball     ( src/NLP/Snowball.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/NLP/Snowball.o )
+
+src/NLP/Snowball.hs:74:11: warning: [-Winline-rule-shadowing]
+    Rule "map/stem" may never fire because ‘stem’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘stem’
+   |
+74 | {-# RULES "map/stem" forall a xs. map (stem a) xs = stems a xs #-}
+   |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Installing library in /home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/snowball-1.0.0.1-Fmi1fXKbAoJF8kzDyJ1zzB
+Registering library for snowball-1.0.0.1..

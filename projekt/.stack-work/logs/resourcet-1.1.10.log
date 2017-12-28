@@ -1,0 +1,115 @@
+Configuring resourcet-1.1.10...
+Preprocessing library for resourcet-1.1.10..
+Building library for resourcet-1.1.10..
+[1 of 5] Compiling Data.Acquire.Internal ( Data/Acquire/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/Acquire/Internal.o )
+[2 of 5] Compiling Control.Monad.Trans.Resource.Internal ( Control/Monad/Trans/Resource/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Control/Monad/Trans/Resource/Internal.o )
+
+Control/Monad/Trans/Resource/Internal.hs:51:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+   |
+51 | import Control.Monad.Trans.Error    ( ErrorT, Error)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Control/Monad/Trans/Resource/Internal.hs:78:1: warning: [-Wdodgy-imports]
+    Module ‘Prelude’ does not export ‘catch’
+   |
+78 | import Prelude hiding (catch)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Control/Monad/Trans/Resource/Internal.hs:304:11: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+304 | GOX(Error e, ErrorT e)
+    |           ^^^^^
+
+Control/Monad/Trans/Resource/Internal.hs:304:56: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+304 | GOX(Error e, ErrorT e)
+    |                                                        ^^^^^^
+[3 of 5] Compiling Control.Monad.Trans.Resource ( Control/Monad/Trans/Resource.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Control/Monad/Trans/Resource.o )
+
+Control/Monad/Trans/Resource.hs:55:7: warning: [-Wdodgy-exports]
+    The export item ‘ExceptionT(..)’ suggests that
+    ‘ExceptionT’ has (in-scope) constructors or class methods,
+    but it has none
+   |
+55 |     , ExceptionT (..)
+   |       ^^^^^^^^^^^^^^^
+
+Control/Monad/Trans/Resource.hs:65:1: warning: [-Wunused-imports]
+    The import of ‘throw’ from module ‘Control.Exception’ is redundant
+   |
+65 | import Control.Exception (SomeException, throw)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Control/Monad/Trans/Resource.hs:74:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+74 | import Data.Monoid (Monoid)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Control/Monad/Trans/Resource.hs:207:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘finally’
+    |
+207 | finally action cleanup =
+    | ^^^^^^^
+[4 of 5] Compiling Data.Acquire     ( Data/Acquire.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/Acquire.o )
+
+Data/Acquire.hs:16:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.Trans.Resource’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Trans.Resource’
+    To import instances alone, use: import Control.Monad.Trans.Resource()
+   |
+16 | import Control.Monad.Trans.Resource
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/Acquire.hs:18:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+   |
+18 | import Control.Applicative (Applicative (..))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/Acquire.hs:19:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.Base’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Base’
+    To import instances alone, use: import Control.Monad.Base()
+   |
+19 | import Control.Monad.Base (MonadBase (..))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/Acquire.hs:21:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.Trans.Control’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Trans.Control’
+    To import instances alone, use: import Control.Monad.Trans.Control()
+   |
+21 | import Control.Monad.Trans.Control (MonadBaseControl, control)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/Acquire.hs:23:1: warning: [-Wunused-imports]
+    The import of ‘Data.Typeable’ is redundant
+      except perhaps to import instances from ‘Data.Typeable’
+    To import instances alone, use: import Data.Typeable()
+   |
+23 | import Data.Typeable (Typeable)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/Acquire.hs:24:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad’ is redundant
+      except perhaps to import instances from ‘Control.Monad’
+    To import instances alone, use: import Control.Monad()
+   |
+24 | import Control.Monad (liftM, ap)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[5 of 5] Compiling UnliftIO.Resource ( UnliftIO/Resource.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/UnliftIO/Resource.o )
+Installing library in /home/mdronski/.stack/snapshots/x86_64-linux/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/resourcet-1.1.10-Ct27JSyTO7l8wJHQ1zhc7
+Registering library for resourcet-1.1.10..
