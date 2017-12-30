@@ -40,6 +40,8 @@ library
     , snowball
     , QuickCheck
     , HUnit
+    , random
+    , matrix
 
   exposed-modules:
       Lib

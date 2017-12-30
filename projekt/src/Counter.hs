@@ -55,10 +55,11 @@ count = do
     let groupedWords = group sortedWords
     let mappedWords = map (\x -> (length x, head x)) groupedWords
     let sortedMappedWords = reverse (sort mappedWords)
+    writeFile "wordsFrequency" (unwords $ fmap (\(x,y)-> y) sortedMappedWords)
     return sortedMappedWords
 
     
-
+ --putStrLn (show ((\\) (take 80 (fmap (\(x,y)-> y) spam )) (take 80 (fmap (\(x,y)-> y)ham))))
 
     
 

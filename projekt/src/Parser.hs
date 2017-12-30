@@ -16,6 +16,12 @@ import Control.Exception
 
 
 
+deleteAppendix [] = []
+deleteAppendix ('\n':'\n':xs) = xs
+deleteAppendix (x:xs) = deleteAppendix xs
+
+
+
 parseChar :: String -> String
 parseChar s 
                 | '@' `elem` s = "email"
@@ -59,7 +65,7 @@ tooLower a = (toLower (head a) ) : (tooLower (tail a))
 
 parse s = do
     ws0 <- Prelude.readFile s
-    let ws1 = fmap (T.append (T.pack " ")) . fmap (stem English) . fmap (T.pack) . fmap parseChar . fmap delete_punctuation_mark . fmap tooLower $ Prelude.words ws0
+    let ws1 = fmap (T.append (T.pack " ")) . fmap (stem English) . fmap (T.pack) . fmap parseChar . fmap delete_punctuation_mark . fmap tooLower $ Prelude.words (deleteAppendix ws0)
     TIO.writeFile (s++"_parsed") (foldl1 T.append ws1)
     return ()
 
@@ -102,5 +108,4 @@ parse_all = do
     deleteUnParsed onlyFiles
     deleteAllEmpties
     return 1;
-
 
