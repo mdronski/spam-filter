@@ -19,26 +19,28 @@ import Data.Matrix
 
 readToArray :: Fractional a => IO (Matrix a, Matrix a, Matrix a)
 readToArray = do
-    spamArray' <- readFile "SpamEmails";
-    let spamCount = length (lines spamArray');
+    spamArray'' <- readFile "SpamEmails";
+    let spamArray' = lines spamArray'';
+    let spamCount = length  spamArray';
 
-    hamArray' <- readFile "HamEmails";
-    let hamCount = length (lines hamArray');    
-
-    let labels' = [1 | x <- [1..spamCount]] ++ [0 | y <- [1..hamCount]];
-    let labels = fmap (fromIntegral) (fromList (length labels') 1 labels');
+    hamArray'' <- readFile "HamEmails";
+    let hamArray' = lines hamArray'';
+    let hamCount = length hamArray';    
 
     let emailArray' = spamArray' ++ hamArray';
-    let emailArray = fmap words (lines spamArray');
+    let emailArray = fmap words emailArray';
 
-    pattern' <- readFile "spamWords";
-    let pattern = take 500 $ words pattern';
+    pattern' <- readFile "wordsFromHamSet1300";
+    let pattern = words pattern';
 
     let vectorsMatrix' = fmap (convertToVec pattern) emailArray;
     let vectorsMatrix = fmap fromIntegral (fromLists vectorsMatrix');
 
-    let theta = [0.1  | x <- [1..(ncols vectorsMatrix)]];
+    let theta = [0.01  | x <- [1..(ncols vectorsMatrix)]];
     let t = fromList 1 (ncols vectorsMatrix) theta
+
+    let labels' = [1 | x <- [1..spamCount]] ++ [0 | y <- [1..hamCount]];
+    let labels = fmap (fromIntegral) (fromList (length labels') 1 labels');
 
     return (vectorsMatrix, labels, t)
 
@@ -60,7 +62,7 @@ elementByElement (x:xs) (y:ys) = (x*y) : (elementByElement xs ys)
 
 
 --repeatGradient :: Floating a1 => Matrix a1 -> Matrix a1 -> Matrix a1 -> a -> IO (Matrix a1)
-repeatGradient _ _ theta 10 = return (theta)
+repeatGradient _ _ theta 15 = return (theta)
 repeatGradient matrix labels theta n =
  do
   putStrLn (show theta )
@@ -84,7 +86,7 @@ singlegradient matrix labels theta n =
 
 gradient matrix labels theta n 
     | n == ((ncols matrix) +1) = []
-    | otherwise = (singlegradient matrix labels theta n) : (gradient matrix labels theta (n+1))
+    | otherwise = ((singlegradient matrix labels theta n)) : (gradient matrix labels theta (n+1))
 
 gradientDescent matrix labels theta n 
     | n==30 = theta
