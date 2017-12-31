@@ -40,6 +40,7 @@ writeToFile file = do
     Prelude.appendFile "AllEmails" "\n"
     return ()
 
+convertToVec :: Num a => [String] -> [String] -> [a]
 convertToVec [] words = []
 convertToVec pattern words
     | ((\\) [head pattern] words) /= [] = 0 : (convertToVec (tail pattern) (words))

@@ -14,6 +14,7 @@ module Model (
 import Counter
 import Data.String
 import System.Random (randomRIO)
+import Data.Matrix
 
 sigmoid x = 1/(1 + exp (-x))
 
@@ -32,7 +33,7 @@ readToArray = do
     let emailArray = fmap words (lines spamArray');
 
     pattern' <- readFile "HamSpamDiffrence";
-    let pattern =  words pattern';
+    let pattern = take 100 $ words pattern';
 
     let vectorsMatrix = fmap (convertToVec pattern) emailArray;
 
@@ -84,7 +85,7 @@ singleGradient vectors labels theta n =
 
 gradientDescent vectors labels theta n  
     | (n == 15) = theta
-    | otherwise = gradientDescent vectors labels (vectorMinusvector theta (gradient vectors labels theta 0)) (n+1)  
+    | otherwise = gradientDescent vectors labels (vectorPlusvector theta (gradient vectors labels theta 0)) (n+1)  
 
 
 randomList :: Int -> IO([Int])
@@ -96,6 +97,15 @@ randomList n = do
 
 
 -- (vectors,labels) <- readToArray 
--- let v = fmap (fmap fromIntegral) vectors
--- let l = fmap fromIntegral labels
--- let t = [0.001 * (exp 1) | x <- [1..(length(head v))]]
+-- let v = fmap (fmap fromIntegral) vectors;
+-- let l = fmap fromIntegral labels;
+-- let t = [0.001 * (exp 1) | x <- [1..(length(head v))]];
+
+firstStep vectors labels theta  = 
+    trace (multStd (Data.Matrix.transpose ((-) labels (multStd vectors theta))) ((-) labels (multStd vectors theta)) / (multStd ((-) labels (multStd vectors theta)) (multStd vectors ((-) labels (multStd vectors theta)))))
+
+    
+gradientDescent1 vectors labels theta n 
+    | (n == 15 ) = theta
+    | otherwise = gradientDescent1 vectors labels ((-) labels ((*) vectors ((+) theta (fmap (\x->x*(firstStep vectors labels theta )) labels) ) )) (n+1)
+
