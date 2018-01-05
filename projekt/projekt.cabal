@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 59a233b5fb1a1905bef74fd05a90e5e9347b59ba2eff5b3f53811c5212cd2a8f
+-- hash: 675a2b1e62a88a292565b1b7af5e0b95879253f5673611d2a55adef482b06b40
 
 name:           projekt
 version:        0.1.0.0
@@ -31,10 +31,22 @@ library
       src
   build-depends:
       base >=4.7 && <5
+      , directory
+      , random
+      , matrix
+      , bytestring
+      , http-conduit
+      , text-icu
+      , text
+      , directory
+      , snowball
+      , QuickCheck
+      , HUnit
   exposed-modules:
       Counter
       Lib
       Model
+      NewModel
       Parser
   other-modules:
       Paths_projekt
@@ -48,6 +60,17 @@ executable projekt-exe
   build-depends:
       base >=4.7 && <5
     , projekt
+    , directory
+      , random
+      , matrix
+      , bytestring
+      , http-conduit
+      , text-icu
+      , text
+      , directory
+      , snowball
+      , QuickCheck
+      , HUnit
   other-modules:
       Paths_projekt
   default-language: Haskell2010

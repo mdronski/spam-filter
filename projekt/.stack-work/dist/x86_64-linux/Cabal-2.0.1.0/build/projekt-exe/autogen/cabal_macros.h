@@ -33,6 +33,116 @@
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_projekt */
 
+/* package directory-1.3.1.5 */
+#ifndef VERSION_directory
+#define VERSION_directory "1.3.1.5"
+#endif /* VERSION_directory */
+#ifndef MIN_VERSION_directory
+#define MIN_VERSION_directory(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  3 || \
+  (major1) == 1 && (major2) == 3 && (minor) <= 1)
+#endif /* MIN_VERSION_directory */
+
+/* package random-1.1 */
+#ifndef VERSION_random
+#define VERSION_random "1.1"
+#endif /* VERSION_random */
+#ifndef MIN_VERSION_random
+#define MIN_VERSION_random(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  1 || \
+  (major1) == 1 && (major2) == 1 && (minor) <= 0)
+#endif /* MIN_VERSION_random */
+
+/* package matrix-0.3.5.0 */
+#ifndef VERSION_matrix
+#define VERSION_matrix "0.3.5.0"
+#endif /* VERSION_matrix */
+#ifndef MIN_VERSION_matrix
+#define MIN_VERSION_matrix(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  3 || \
+  (major1) == 0 && (major2) == 3 && (minor) <= 5)
+#endif /* MIN_VERSION_matrix */
+
+/* package bytestring-0.10.8.2 */
+#ifndef VERSION_bytestring
+#define VERSION_bytestring "0.10.8.2"
+#endif /* VERSION_bytestring */
+#ifndef MIN_VERSION_bytestring
+#define MIN_VERSION_bytestring(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  10 || \
+  (major1) == 0 && (major2) == 10 && (minor) <= 8)
+#endif /* MIN_VERSION_bytestring */
+
+/* package http-conduit-2.2.4 */
+#ifndef VERSION_http_conduit
+#define VERSION_http_conduit "2.2.4"
+#endif /* VERSION_http_conduit */
+#ifndef MIN_VERSION_http_conduit
+#define MIN_VERSION_http_conduit(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  2 || \
+  (major1) == 2 && (major2) == 2 && (minor) <= 4)
+#endif /* MIN_VERSION_http_conduit */
+
+/* package text-icu-0.7.0.1 */
+#ifndef VERSION_text_icu
+#define VERSION_text_icu "0.7.0.1"
+#endif /* VERSION_text_icu */
+#ifndef MIN_VERSION_text_icu
+#define MIN_VERSION_text_icu(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  7 || \
+  (major1) == 0 && (major2) == 7 && (minor) <= 0)
+#endif /* MIN_VERSION_text_icu */
+
+/* package text-1.2.2.2 */
+#ifndef VERSION_text
+#define VERSION_text "1.2.2.2"
+#endif /* VERSION_text */
+#ifndef MIN_VERSION_text
+#define MIN_VERSION_text(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 2)
+#endif /* MIN_VERSION_text */
+
+/* package snowball-1.0.0.1 */
+#ifndef VERSION_snowball
+#define VERSION_snowball "1.0.0.1"
+#endif /* VERSION_snowball */
+#ifndef MIN_VERSION_snowball
+#define MIN_VERSION_snowball(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  0 || \
+  (major1) == 1 && (major2) == 0 && (minor) <= 0)
+#endif /* MIN_VERSION_snowball */
+
+/* package QuickCheck-2.10.1 */
+#ifndef VERSION_QuickCheck
+#define VERSION_QuickCheck "2.10.1"
+#endif /* VERSION_QuickCheck */
+#ifndef MIN_VERSION_QuickCheck
+#define MIN_VERSION_QuickCheck(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  10 || \
+  (major1) == 2 && (major2) == 10 && (minor) <= 1)
+#endif /* MIN_VERSION_QuickCheck */
+
+/* package HUnit-1.6.0.0 */
+#ifndef VERSION_HUnit
+#define VERSION_HUnit "1.6.0.0"
+#endif /* VERSION_HUnit */
+#ifndef MIN_VERSION_HUnit
+#define MIN_VERSION_HUnit(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  6 || \
+  (major1) == 1 && (major2) == 6 && (minor) <= 0)
+#endif /* MIN_VERSION_HUnit */
+
 /* tool gcc-5.4.0 */
 #ifndef TOOL_VERSION_gcc
 #define TOOL_VERSION_gcc "5.4.0"
@@ -133,7 +243,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "projekt-0.1.0.0-AKm2zIdlNa9HxGxlOxDBsm-projekt-exe"
+#define CURRENT_COMPONENT_ID "projekt-0.1.0.0-B7uyKPTkuReBaeSOR9jDZ8-projekt-exe"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"
