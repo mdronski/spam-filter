@@ -30,6 +30,10 @@ module Main where
     
         ttt <- makePrediction thetas email pattern;
     
+        if(fileName > 6451)
+            then Prelude.putStrLn "Original: Spam"
+            else Prelude.putStrLn "Original: Ham"
+
         return()
     
     
