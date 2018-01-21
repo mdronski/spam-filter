@@ -10,13 +10,15 @@ module Counter
 import System.Directory
 import Data.List
 
+
+-- | Repeat n times given action on every element of given list 
 repeatNTimes 0 _ _ = return ()
 repeatNTimes n action (x:xs) =
  do
   action x
   repeatNTimes (n-1) action xs
 
-
+-- | Save to file 
 writeToFile file = do
     contents <- Prelude.readFile file;
     Prelude.appendFile "AllEmails" contents

@@ -77,38 +77,37 @@ parse s = do
     TIO.writeFile (s++"_parsed") (foldl1 T.append ws1)
     return ()
 
+-- | catching exceptions from parse function
 parseCatched s = catch (parse s) handler
     where
     handler :: SomeException -> IO ()
     handler ex = Prelude.putStrLn $ "Caught exception: " ++ show ex
 
-
-
-
+-- | Repeat n times given action on every element of the given list
 repeatNTimes 0 _ _ = return ()
 repeatNTimes n action (x:xs) =
     do
     action x
     repeatNTimes (n-1) action xs
 
-
-
+-- | delete emails which are unParsed
 deleteUnParsed files = do
     repeatNTimes (length files) removeFile files
 
-
+-- | delete empty files
 deleteEmpty s = do
     fcontents <- Prelude.readFile s;
     if ((length fcontents) == 0) then do removeFile s else return () 
     return ()
 
+-- | delete all empty files
 deleteAllEmpties = do
     files <- System.Directory.getDirectoryContents =<< System.Directory.getCurrentDirectory;
     let onlyFiles = delete "." $ delete ".." files
     repeatNTimes (length onlyFiles) deleteEmpty onlyFiles
     return ()
 
-
+-- | Parse all emails in the directory
 parse_all = do
     files <- System.Directory.getDirectoryContents =<< System.Directory.getCurrentDirectory;
     let onlyFiles = delete "." $ delete ".." files

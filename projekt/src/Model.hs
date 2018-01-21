@@ -39,6 +39,8 @@ readToArray = do
 
     return (vectorsMatrix, labels, t)
 
+
+-- | Gradient descent iteration
 repeatGradient _ _ theta 15 = return (theta)
 repeatGradient matrix labels theta n =
  do
@@ -48,6 +50,8 @@ repeatGradient matrix labels theta n =
   
   repeatGradient matrix labels newTheta (n+1)
 
+
+-- | Sigmoid function
 sigmoid :: Floating a => a -> a 
 sigmoid x = 1/(1 + exp (-x))
 
@@ -58,14 +62,17 @@ hypothesis x theta =  sigmoid $ trace (multStd2 x (transpose theta) )
 --  calculate hypothesis matrix (possibility of being spam or not) for emails matrix
 hvec matrix theta = fmap sigmoid (multStd2 matrix (transpose theta))  
 
+-- | Single gradient step
 singlegradient :: Floating a => Matrix a -> Matrix a -> Matrix a -> Int -> a
 singlegradient matrix labels theta n =
    sum (elementwise (\x y -> x*y) (elementwise (\x y -> x-y) (hvec matrix theta) labels) (submatrix 1 (nrows matrix) n n matrix)) /(fromIntegral (nrows matrix))
 
+-- | Calculate a gradient 
 gradient matrix labels theta n 
     | n == ((ncols matrix) +1) = []
     | otherwise = ((singlegradient matrix labels theta n)) : (gradient matrix labels theta (n+1))
 
+-- | Gradient Descent iteration
 gradientDescent matrix labels theta n 
     | n==30 = theta
     | otherwise = gradientDescent matrix labels (elementwise (\x y -> x + y) (fromList 1 (ncols theta) (gradient matrix labels theta 1)) theta) (n+1)

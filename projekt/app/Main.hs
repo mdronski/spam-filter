@@ -46,7 +46,7 @@ module Main
 
         return()
     
-    
+    -- | Make prediction if email is spam or not
     makePrediction theta email pattern = do
         let parsedEmail = fmap (T.append (T.pack " ")) . fmap (stem English) . fmap (T.pack) . fmap parseChar . fmap delete_punctuation_mark . fmap tooLower $ Prelude.words (deleteAppendix email);
     
