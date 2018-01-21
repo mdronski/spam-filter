@@ -1,0 +1,185 @@
+
+==================== FINAL INTERFACE ====================
+2018-01-21 20:57:08.353826795 UTC
+
+interface main:RenameDirectory 8022
+  interface hash: a2e989b8fd18c45c413bcd3db4e9fba9
+  ABI hash: 9087430c8f73e7d0abe6c8815535a15a
+  export-list hash: 44f6a9050374b5750a2f4b96684d0600
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 96cda4d171844b9c139a00e66ee6eec2
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  RenameDirectory.main
+module dependencies: Util
+package dependencies: array-0.5.2.0 base-4.10.1.0* deepseq-1.4.3.0
+                      directory-1.3.1.5 filepath-1.4.1.2 ghc-prim-0.5.1.1
+                      integer-gmp-1.0.1.0 time-1.8.0.2 unix-2.7.2.2
+orphans: time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Complex base-4.10.1.0:Data.Either
+                         base-4.10.1.0:Data.Functor.Compose base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+import  -/  directory-1.3.1.5:System.Directory 674a63b5dfd5e6dd78c98f0675c7b451
+import  -/  directory-1.3.1.5:System.Directory.Internal.Prelude 80f416161b0247624c76ff798606c39d
+import  -/  ghc-prim-0.5.1.1:GHC.Types b1fd0716441595db508c1a74387bf394
+import  -/  Util be2abed7083a51f4bdf8855a2d51cf9d
+  exports: bd6a289d318cbda8f1f2ee2253928220
+  TestEnv a2cda7416f6d830e42cdb7d432cd2a75
+  expectEq d2c7922486099777f871dbfb26d4fa7f
+addDependentFile "tests/util.inl"
+addDependentFile "/home/mdronski/.stack/programs/x86_64-linux/ghc-nopie-8.2.2/lib/ghc-8.2.2/include/ghcversion.h"
+addDependentFile ".stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/autogen/cabal_macros.h"
+addDependentFile "/usr/include/stdc-predef.h"
+2227ef1f3ec5bce1d4ce3c9cf6515029
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   RenameDirectory.$trModule3
+                   RenameDirectory.$trModule1) -}
+f40d42261a5a0ffa1015b5e619d1ee41
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS RenameDirectory.$trModule2) -}
+a968d4b4613087178460f3d1b946ae73
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("RenameDirectory"#) -}
+7ea0effeb6f8c2c262edd5aaaa8a64ac
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS RenameDirectory.$trModule4) -}
+61067cedb05096115edf8087b05b2168
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+246e2fa3e0ee3f8993af48bc76ef9494
+  main :: Util.TestEnv -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <L,U(U(U),U,A,A)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                RenameDirectory.main1
+                  `cast`
+                (<Util.TestEnv>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+bd9819ecabd68546b11f76356af44015
+  main1 ::
+    Util.TestEnv
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,U(U(U),U,A,A)><S,U>,
+     Unfolding: (\ (_t :: Util.TestEnv)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case System.Posix.Directory.createDirectory1
+                        RenameDirectory.main7
+                        System.Directory.createDirectory2
+                          `cast`
+                        (Sym (System.Posix.Types.N:CMode[0]))
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case System.Directory.getDirectoryContents1
+                        RenameDirectory.main12
+                        ipv of ds6 { (#,#) ipv2 ipv3 ->
+                 case Util.expectEq1
+                        @ [[GHC.Types.Char]]
+                        @ ()
+                        GHC.Classes.$fEq[]_$s$fEq[]2
+                        GHC.Show.$fShow[]_$s$fShow[]2
+                        GHC.Show.$fShow()
+                        _t
+                        RenameDirectory.main10
+                        RenameDirectory.main9
+                        GHC.Tuple.()
+                        RenameDirectory.main6
+                        (GHC.List.filter
+                           @ [GHC.Types.Char]
+                           System.Directory.listDirectory2
+                           ipv3)
+                        ipv2 of ds2 { (#,#) ipv4 ipv5 ->
+                 case System.Directory.renameDirectory1
+                        RenameDirectory.main7
+                        RenameDirectory.main3
+                        ipv4 of ds3 { (#,#) ipv6 ipv7 ->
+                 case System.Directory.getDirectoryContents1
+                        RenameDirectory.main12
+                        ipv6 of ds4 { (#,#) ipv8 ipv9 ->
+                 Util.expectEq1
+                   @ [[GHC.Types.Char]]
+                   @ ()
+                   GHC.Classes.$fEq[]_$s$fEq[]2
+                   GHC.Show.$fShow[]_$s$fShow[]2
+                   GHC.Show.$fShow()
+                   _t
+                   RenameDirectory.main10
+                   RenameDirectory.main5
+                   GHC.Tuple.()
+                   RenameDirectory.main2
+                   (GHC.List.filter
+                      @ [GHC.Types.Char]
+                      System.Directory.listDirectory2
+                      ipv9)
+                   ipv8 } } } } }) -}
+185aeff0cbe054abbc00082aeb7ec32c
+  main10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   RenameDirectory.main11) -}
+033c6d73446c611ab0cfb0b15888d4bb
+  main11 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("tests/RenameDirectory.hs"#) -}
+fc80d5c480608a2dd2bad4ea87db0e09
+  main12 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   RenameDirectory.main13) -}
+94a627c23c61edd667755113a582e26f
+  main13 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("."#) -}
+fdca295487b99a67bc860d788207f318
+  main2 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   RenameDirectory.main3
+                   (GHC.Types.[] @ [GHC.Types.Char])) -}
+7b197614ba1071b0bb59361c68dd297b
+  main3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# RenameDirectory.main4) -}
+647e5cd4088d1c77354127dee9b035a2
+  main4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("b"#) -}
+9ff46e735f946063d8c80cade4e98d69
+  main5 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (10) -}
+47240525817afe6a9f5146e1a22faf1e
+  main6 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   RenameDirectory.main7
+                   (GHC.Types.[] @ [GHC.Types.Char])) -}
+9d449e33a56264abae7dce95a184c3e4
+  main7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# RenameDirectory.main8) -}
+e0203d11bac96b91462c037c96fc932a
+  main8 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("a"#) -}
+da5183746f72840fc00edf9b43564bd6
+  main9 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (8) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

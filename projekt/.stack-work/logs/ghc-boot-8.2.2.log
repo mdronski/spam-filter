@@ -1,0 +1,9 @@
+Configuring ghc-boot-8.2.2...
+Preprocessing library for ghc-boot-8.2.2..
+Building library for ghc-boot-8.2.2..
+[1 of 4] Compiling GHC.ForeignSrcLang ( GHC/ForeignSrcLang.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/GHC/ForeignSrcLang.o )
+[2 of 4] Compiling GHC.LanguageExtensions ( GHC/LanguageExtensions.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/GHC/LanguageExtensions.o )
+[3 of 4] Compiling GHC.PackageDb    ( GHC/PackageDb.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/GHC/PackageDb.o )
+[4 of 4] Compiling GHC.Serialized   ( GHC/Serialized.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/GHC/Serialized.o )
+Installing library in /home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux-nopie/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/ghc-boot-8.2.2-AiSf4q9FOvb3bdjxzuw0At
+Registering library for ghc-boot-8.2.2..

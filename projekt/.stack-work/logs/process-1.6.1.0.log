@@ -1,6 +1,6 @@
-[1 of 2] Compiling Main             ( /tmp/stack4379/process-1.6.1.0/Setup.hs, /tmp/stack4379/process-1.6.1.0/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/Main.o )
-[2 of 2] Compiling StackSetupShim   ( /home/mdronski/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack4379/process-1.6.1.0/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/StackSetupShim.o )
-Linking /tmp/stack4379/process-1.6.1.0/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/setup ...
+[1 of 2] Compiling Main             ( /tmp/stack20976/process-1.6.1.0/Setup.hs, /tmp/stack20976/process-1.6.1.0/.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /home/mdronski/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack20976/process-1.6.1.0/.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/setup/StackSetupShim.o )
+Linking /tmp/stack20976/process-1.6.1.0/.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/setup/setup ...
 Configuring process-1.6.1.0...
 configure: WARNING: unrecognized options: --with-compiler
 checking for gcc... /usr/bin/gcc
@@ -51,10 +51,10 @@ config.status: creating include/HsProcessConfig.h
 configure: WARNING: unrecognized options: --with-compiler
 Preprocessing library for process-1.6.1.0..
 Building library for process-1.6.1.0..
-[1 of 5] Compiling System.Process.Common ( System/Process/Common.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Process/Common.o )
-[2 of 5] Compiling System.Process.Posix ( System/Process/Posix.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Process/Posix.o )
-[3 of 5] Compiling System.Process.Internals ( System/Process/Internals.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Process/Internals.o )
-[4 of 5] Compiling System.Process   ( System/Process.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Process.o )
-[5 of 5] Compiling System.Cmd       ( System/Cmd.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Cmd.o )
-Installing library in /home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/process-1.6.1.0-7eXFPPm6ApsKJ8qeS30mQs
+[1 of 5] Compiling System.Process.Common ( System/Process/Common.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/System/Process/Common.o )
+[2 of 5] Compiling System.Process.Posix ( System/Process/Posix.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/System/Process/Posix.o )
+[3 of 5] Compiling System.Process.Internals ( System/Process/Internals.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/System/Process/Internals.o )
+[4 of 5] Compiling System.Process   ( System/Process.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/System/Process.o )
+[5 of 5] Compiling System.Cmd       ( System/Cmd.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/System/Cmd.o )
+Installing library in /home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux-nopie/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/process-1.6.1.0-7eXFPPm6ApsKJ8qeS30mQs
 Registering library for process-1.6.1.0..

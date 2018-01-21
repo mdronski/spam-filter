@@ -1,0 +1,142 @@
+
+==================== FINAL INTERFACE ====================
+2018-01-21 20:57:08.960511548 UTC
+
+interface main:GetDirContents002 8022
+  interface hash: e47daa59736d7fe6134f42f95b8b056f
+  ABI hash: fe1cdd3e4b1f8c2f08fc9fcb94d1b187
+  export-list hash: 690763f7f46e2f8d81b224fdfee5b92b
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 96cda4d171844b9c139a00e66ee6eec2
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  GetDirContents002.main
+module dependencies: Util
+package dependencies: array-0.5.2.0 base-4.10.1.0* deepseq-1.4.3.0
+                      directory-1.3.1.5 filepath-1.4.1.2 ghc-prim-0.5.1.1
+                      integer-gmp-1.0.1.0 time-1.8.0.2 unix-2.7.2.2
+orphans: time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Complex base-4.10.1.0:Data.Either
+                         base-4.10.1.0:Data.Functor.Compose base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+import  -/  base-4.10.1.0:System.IO.Error 93d92b7da56c5ff8e1a9c831cb2a2e3f
+import  -/  directory-1.3.1.5:System.Directory 674a63b5dfd5e6dd78c98f0675c7b451
+import  -/  directory-1.3.1.5:System.Directory.Internal.Prelude 80f416161b0247624c76ff798606c39d
+import  -/  ghc-prim-0.5.1.1:GHC.Types b1fd0716441595db508c1a74387bf394
+import  -/  Util be2abed7083a51f4bdf8855a2d51cf9d
+  exports: bd6a289d318cbda8f1f2ee2253928220
+  TestEnv a2cda7416f6d830e42cdb7d432cd2a75
+  expectIOErrorType 50701796241c2da9bf16723bf0ab8f6b
+addDependentFile "tests/util.inl"
+addDependentFile "/home/mdronski/.stack/programs/x86_64-linux/ghc-nopie-8.2.2/lib/ghc-8.2.2/include/ghcversion.h"
+addDependentFile ".stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/autogen/cabal_macros.h"
+addDependentFile "/usr/include/stdc-predef.h"
+653ac597c05a93b1d94566a3304f6c3c
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   GetDirContents002.$trModule3
+                   GetDirContents002.$trModule1) -}
+cb97692ab85bbc5e48e6531deeb76c22
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS GetDirContents002.$trModule2) -}
+61684bd4869008266ea0e80c245a4716
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("GetDirContents002"#) -}
+69b5ea8356ff35f5bc418440b4ae4c1d
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS GetDirContents002.$trModule4) -}
+085989c9703cffb537b9af903fa2404a
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+151ae8eeb4507924df2434218d1c8731
+  $wmain ::
+    GHC.IORef.IORef GHC.Types.Int
+    -> GHC.Types.Bool
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <L,1*U(U)><L,1*U><S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.IORef.IORef GHC.Types.Int)
+                   (ww1 :: GHC.Types.Bool)
+                   (w :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 Util.$wexpectIOErrorType
+                   @ ()
+                   @ [GHC.IO.FilePath]
+                   GHC.Show.$fShow()
+                   ww
+                   ww1
+                   GetDirContents002.main6
+                   GetDirContents002.main5
+                   GHC.Tuple.()
+                   System.IO.Error.isDoesNotExistError
+                   GetDirContents002.main2
+                     `cast`
+                   (Sym (GHC.Types.N:IO[0] <[GHC.IO.FilePath]>_R))
+                   w) -}
+241d22f6ced907223bb5adc3337531d6
+  main :: Util.TestEnv -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <S,1*U(1*U(U),1*U,A,A)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                GetDirContents002.main1
+                  `cast`
+                (<Util.TestEnv>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+f8ec6fb6a75fd06e59c4d1665c4de602
+  main1 ::
+    Util.TestEnv
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <S,1*U(1*U(U),1*U,A,A)><S,U>, Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Util.TestEnv)
+                   (w1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case w of ww { Util.TestEnv ww1 ww2 ww3 ww4 ->
+                 GetDirContents002.$wmain ww1 ww2 w1 }) -}
+81296c5c4a0fcf0c97261f211d054a95
+  main2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, [GHC.IO.FilePath] #)
+  {- Arity: 1,
+     Unfolding: (System.Directory.getDirectoryContents1
+                   GetDirContents002.main3) -}
+3670d4adb883cdabab081d3e52de7d08
+  main3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   GetDirContents002.main4) -}
+6ddee9027dc2d269473089d86e95e4cf
+  main4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("nonexistent"#) -}
+b41cc0d64b47711fc9b48db22ea81deb
+  main5 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (7) -}
+45a25475e24738cc08f21d3e29766983
+  main6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   GetDirContents002.main7) -}
+4b96640b41f38719812d1c5fc33f9a22
+  main7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("tests/GetDirContents002.hs"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

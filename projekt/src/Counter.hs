@@ -1,14 +1,14 @@
+{-|
+Module       : Counter
+Description  : Used to count words frequencies in the emails.
+-}
 module Counter
-( writeToFile
-, count
-, repeatNTimes
+( count
 , convertToVec
 ) where
     
 import System.Directory
 import Data.List
---import Control.Monad
---import Control.Applicative 
 
 repeatNTimes 0 _ _ = return ()
 repeatNTimes n action (x:xs) =
@@ -17,34 +17,19 @@ repeatNTimes n action (x:xs) =
   repeatNTimes (n-1) action xs
 
 
--- writeToArrayAllFiles files  = loop (return []) files
---     where loop acc (x:[])  = (writeToArray acc x)
---           loop acc (x:xs)  = loop (writeToArray acc x) xs 
-    
--- writeToArrayAllFiles files  = loop (length files) (return []) files
---     where loop 1 acc x  = writeToArray acc x
---           loop n acc (x:xs)  = loop (n-1) (writeToArray acc x) xs 
-
---fun array file = ((Prelude.ReadFile file) >>= words) ++ array
-
---repeatNTimes (length files) 
-
--- writeToArray array file = do
---     contents <- Prelude.readFile file;
---     let contentsWords = words contents
---     return  (contentsWords ++ array) 
-
 writeToFile file = do
     contents <- Prelude.readFile file;
     Prelude.appendFile "AllEmails" contents
     Prelude.appendFile "AllEmails" "\n"
     return ()
 
+-- | Convert string array into the binary vector, checking if it contains words included in patterns array 
 convertToVec [] words = []
 convertToVec pattern words
     | ((\\) [head pattern] words) /= [] = 0 : (convertToVec (tail pattern) (words))
-    | ((\\) [head pattern] words)== [] = 1 : (convertToVec (tail pattern) (words))
+    | ((\\) [head pattern] words) == [] = 1 : (convertToVec (tail pattern) (words))
     
+-- | Count word frequencies and shows tuples containing word and it's frequency
 count = do
     files <- System.Directory.getDirectoryContents =<< System.Directory.getCurrentDirectory;
     let onlyFiles = delete "." $ delete ".." $ delete "Counter.hs"  files;
@@ -59,7 +44,6 @@ count = do
     return sortedMappedWords
 
     
- --putStrLn (show ((\\) (take 80 (fmap (\(x,y)-> y) spam )) (take 80 (fmap (\(x,y)-> y)ham))))
 
     
 

@@ -1,6 +1,3 @@
-[1 of 2] Compiling Main             ( /home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/Setup.hs, /home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/Main.o )
-[2 of 2] Compiling StackSetupShim   ( /home/mdronski/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/StackSetupShim.o )
-Linking /home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/setup ...
 Configuring directory-1.3.1.5...
 checking for gcc... /usr/bin/gcc
 checking whether the C compiler works... yes
@@ -40,15 +37,42 @@ checking for CreateSymbolicLinkW... no
 checking for GetFinalPathNameByHandleW... no
 configure: creating ./config.status
 config.status: creating HsDirectoryConfig.h
+config.status: HsDirectoryConfig.h is unchanged
 Preprocessing library for directory-1.3.1.5..
 Building library for directory-1.3.1.5..
-[1 of 8] Compiling System.Directory.Internal.Config ( System/Directory/Internal/Config.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Directory/Internal/Config.o )
-[2 of 8] Compiling System.Directory.Internal.Prelude ( System/Directory/Internal/Prelude.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Directory/Internal/Prelude.o )
-[3 of 8] Compiling System.Directory.Internal.Common ( System/Directory/Internal/Common.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Directory/Internal/Common.o )
-[4 of 8] Compiling System.Directory.Internal.Posix ( .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Directory/Internal/Posix.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Directory/Internal/Posix.o )
-[5 of 8] Compiling System.Directory.Internal.C_utimensat ( .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Directory/Internal/C_utimensat.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Directory/Internal/C_utimensat.o )
-[6 of 8] Compiling System.Directory.Internal ( System/Directory/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Directory/Internal.o )
-[7 of 8] Compiling System.Directory ( System/Directory.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Directory.o )
-[8 of 8] Compiling System.Directory.Internal.Windows ( .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Directory/Internal/Windows.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/Directory/Internal/Windows.o )
-Installing library in /home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/directory-1.3.1.5-JdmaiEqnzQB3mzsgSioc9g
+Preprocessing test suite 'test' for directory-1.3.1.5..
+Building test suite 'test' for directory-1.3.1.5..
+[ 1 of 31] Compiling Safe             ( tests/Safe.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/Safe.o )
+[ 2 of 31] Compiling TestUtils        ( tests/TestUtils.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/TestUtils.o )
+[ 3 of 31] Compiling Util             ( tests/Util.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/Util.o )
+[ 4 of 31] Compiling T8482            ( tests/T8482.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/T8482.o )
+[ 5 of 31] Compiling RenamePath       ( tests/RenamePath.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/RenamePath.o )
+[ 6 of 31] Compiling RenameFile001    ( tests/RenameFile001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/RenameFile001.o )
+[ 7 of 31] Compiling RenameDirectory  ( tests/RenameDirectory.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/RenameDirectory.o )
+[ 8 of 31] Compiling RemovePathForcibly ( tests/RemovePathForcibly.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/RemovePathForcibly.o )
+[ 9 of 31] Compiling RemoveDirectoryRecursive001 ( tests/RemoveDirectoryRecursive001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/RemoveDirectoryRecursive001.o )
+[10 of 31] Compiling PathIsSymbolicLink ( tests/PathIsSymbolicLink.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/PathIsSymbolicLink.o )
+[11 of 31] Compiling MakeAbsolute     ( tests/MakeAbsolute.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/MakeAbsolute.o )
+[12 of 31] Compiling LongPaths        ( tests/LongPaths.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/LongPaths.o )
+[13 of 31] Compiling GetPermissions001 ( tests/GetPermissions001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/GetPermissions001.o )
+[14 of 31] Compiling GetHomeDirectory001 ( tests/GetHomeDirectory001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/GetHomeDirectory001.o )
+[15 of 31] Compiling GetFileSize      ( tests/GetFileSize.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/GetFileSize.o )
+[16 of 31] Compiling GetDirContents002 ( tests/GetDirContents002.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/GetDirContents002.o )
+[17 of 31] Compiling GetDirContents001 ( tests/GetDirContents001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/GetDirContents001.o )
+[18 of 31] Compiling FindFile001      ( tests/FindFile001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/FindFile001.o )
+[19 of 31] Compiling FileTime         ( tests/FileTime.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/FileTime.o )
+[20 of 31] Compiling DoesPathExist    ( tests/DoesPathExist.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/DoesPathExist.o )
+[21 of 31] Compiling DoesDirectoryExist001 ( tests/DoesDirectoryExist001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/DoesDirectoryExist001.o )
+[22 of 31] Compiling Directory001     ( tests/Directory001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/Directory001.o )
+[23 of 31] Compiling CurrentDirectory001 ( tests/CurrentDirectory001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/CurrentDirectory001.o )
+[24 of 31] Compiling CreateDirectoryIfMissing001 ( tests/CreateDirectoryIfMissing001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/CreateDirectoryIfMissing001.o )
+[25 of 31] Compiling CreateDirectory001 ( tests/CreateDirectory001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/CreateDirectory001.o )
+[26 of 31] Compiling CopyFileWithMetadata ( tests/CopyFileWithMetadata.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/CopyFileWithMetadata.o )
+[27 of 31] Compiling CopyFile002      ( tests/CopyFile002.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/CopyFile002.o )
+[28 of 31] Compiling CopyFile001      ( tests/CopyFile001.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/CopyFile001.o )
+[29 of 31] Compiling CanonicalizePath ( tests/CanonicalizePath.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/CanonicalizePath.o )
+[30 of 31] Compiling WithCurrentDirectory ( tests/WithCurrentDirectory.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/WithCurrentDirectory.o )
+[31 of 31] Compiling Main             ( tests/Main.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/test ...
+Installing library in /home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux-nopie/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/directory-1.3.1.5-JdmaiEqnzQB3mzsgSioc9g
 Registering library for directory-1.3.1.5..

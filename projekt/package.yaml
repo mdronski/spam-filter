@@ -21,6 +21,17 @@ description:         Please see the README on Github at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- directory
+- random
+- matrix
+- bytestring
+- http-conduit
+- text-icu
+- text
+- directory
+- snowball
+- QuickCheck
+- HUnit
 
 library:
   source-dirs: src

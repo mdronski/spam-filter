@@ -1,16 +1,15 @@
 import Test.HUnit
 import Counter
 import Parser
+import Model
 import Control.Monad
 import Test.QuickCheck
-
 
 delete_punctuation_mark_test :: String -> Bool
 delete_punctuation_mark_test s = delete_punctuation_mark (s ++ ".") == s
 
 parseChar_test :: String -> String -> Bool
 parseChar_test s c = parseChar (s ++ "@" ++ c) == "email"
-
 
 main = do
     let test1 = TestCase (assertEqual "substring test" True (substring "ala" "ma ala kota")) 
@@ -24,6 +23,6 @@ main = do
                       TestLabel "test4" test4,
                       TestLabel "test5" test5]
     runTestTT tests
+
     quickCheck delete_punctuation_mark_test 
     quickCheck parseChar_test
-    
