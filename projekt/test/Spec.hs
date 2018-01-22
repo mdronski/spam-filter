@@ -11,6 +11,9 @@ delete_punctuation_mark_test s = delete_punctuation_mark (s ++ ".") == s
 parseChar_test :: String -> String -> Bool
 parseChar_test s c = parseChar (s ++ "@" ++ c) == "email"
 
+sigmoid_test :: Float -> Bool
+sigmoid_test x = ((Model.sigmoid x) > 0) && ((Model.sigmoid x) < 1)
+
 main = do
     let test1 = TestCase (assertEqual "substring test" True (substring "ala" "ma ala kota")) 
     let test2 = TestCase (assertEqual "prefix test" True (prefix "http" "http://clam.com")) 
@@ -26,3 +29,4 @@ main = do
 
     quickCheck delete_punctuation_mark_test 
     quickCheck parseChar_test
+    quickCheck sigmoid_test

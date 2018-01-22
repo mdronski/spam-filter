@@ -72,18 +72,18 @@ tests/FileTime.hs:12: got expected exception (nonexistent-file: getAccessTime:ge
 tests/FileTime.hs:14: got expected exception (nonexistent-file: setAccessTime:setFileTimes: does not exist (No such file or directory))
 tests/FileTime.hs:16: got expected exception (nonexistent-file: getModificationTime:getFileStatus: does not exist (No such file or directory))
 tests/FileTime.hs:18: got expected exception (nonexistent-file: setModificationTime:setFileTimes: does not exist (No such file or directory))
-tests/FileTime.hs:34:"foo": 2018-01-21 19:59:28.404151273 UTC is near 2018-01-21 19:59:28.404151273 UTC
-tests/FileTime.hs:38:"foo": 2018-01-21 20:59:28.403038564 UTC is near 2018-01-21 20:59:28.403038564 UTC
-tests/FileTime.hs:46:"foo": 2018-01-21 18:59:28.404151273 UTC is near 2018-01-21 18:59:28.404151273 UTC
-tests/FileTime.hs:50:"foo": 2018-01-21 19:59:28.404151273 UTC is near 2018-01-21 19:59:28.404151273 UTC
-tests/FileTime.hs:34:".": 2018-01-21 19:59:28.404151273 UTC is near 2018-01-21 19:59:28.404151273 UTC
-tests/FileTime.hs:38:".": 2018-01-21 20:59:28.399038617 UTC is near 2018-01-21 20:59:28.399038617 UTC
-tests/FileTime.hs:46:".": 2018-01-21 18:59:28.404151273 UTC is near 2018-01-21 18:59:28.404151273 UTC
-tests/FileTime.hs:50:".": 2018-01-21 19:59:28.404151273 UTC is near 2018-01-21 19:59:28.404151273 UTC
-tests/FileTime.hs:34:"": 2018-01-21 19:59:28.404151273 UTC is near 2018-01-21 19:59:28.404151273 UTC
-tests/FileTime.hs:38:"": 2018-01-21 18:59:28.404151273 UTC is near 2018-01-21 18:59:28.404151273 UTC
-tests/FileTime.hs:46:"": 2018-01-21 18:59:28.404151273 UTC is near 2018-01-21 18:59:28.404151273 UTC
-tests/FileTime.hs:50:"": 2018-01-21 19:59:28.404151273 UTC is near 2018-01-21 19:59:28.404151273 UTC
+tests/FileTime.hs:34:"foo": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
+tests/FileTime.hs:38:"foo": 2018-01-22 10:09:16.651472765 UTC is near 2018-01-22 10:09:16.651472765 UTC
+tests/FileTime.hs:46:"foo": 2018-01-22 08:09:16.656994562 UTC is near 2018-01-22 08:09:16.656994562 UTC
+tests/FileTime.hs:50:"foo": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
+tests/FileTime.hs:34:".": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
+tests/FileTime.hs:38:".": 2018-01-22 10:09:16.651472765 UTC is near 2018-01-22 10:09:16.651472765 UTC
+tests/FileTime.hs:46:".": 2018-01-22 08:09:16.656994562 UTC is near 2018-01-22 08:09:16.656994562 UTC
+tests/FileTime.hs:50:".": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
+tests/FileTime.hs:34:"": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
+tests/FileTime.hs:38:"": 2018-01-22 08:09:16.656994562 UTC is near 2018-01-22 08:09:16.656994562 UTC
+tests/FileTime.hs:46:"": 2018-01-22 08:09:16.656994562 UTC is near 2018-01-22 08:09:16.656994562 UTC
+tests/FileTime.hs:50:"": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
 tests/FindFile001.hs:17: Just "./foo" equals Just "./foo"
 tests/FindFile001.hs:20: Just "./bar/foo" equals Just "./bar/foo"
 tests/FindFile001.hs:23: Just "./foo" equals Just "./foo"

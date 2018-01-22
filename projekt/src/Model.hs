@@ -4,7 +4,8 @@ Module       : Model
 Description  : Machine learnig algorithm
 -}
 module Model (
-    hypothesis
+    hypothesis,
+    sigmoid
     ) where
 
 import Counter

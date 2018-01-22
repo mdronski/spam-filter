@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2018-01-21 22:41:15.235768518 UTC
+2018-01-22 10:09:18.917849789 UTC
 
 interface main:Main 8022
-  interface hash: b0fea68b8920dcf1916bd2dd17c80c89
+  interface hash: a9f9198e693de1e1fe5bf5549a891b12
   ABI hash: b754c8d9975b5663b60fa26b0557f111
   export-list hash: 2d34b225336c748b1571d03a4ebb4bbf
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -60,7 +60,7 @@ import  -/  directory-1.3.1.5:System.Directory 674a63b5dfd5e6dd78c98f0675c7b451
 import  -/  ghc-prim-0.5.1.1:GHC.Classes 93e2660065dce9329577e83d76d8f0d4
 import  -/  matrix-0.3.5.0:Data.Matrix 98a1a885472cee0ab45b4f2a51033c73
 import  -/  projekt-0.1.0.0:Counter f72295a234b9979284166c196c32021d
-import  -/  projekt-0.1.0.0:Model 9c2e263ef601aa1d938d4969c4cc1486
+import  -/  projekt-0.1.0.0:Model 59bfd6bb8fcf11ceec0d0ddda33d68f3
 import  -/  projekt-0.1.0.0:Parser 82c68351ccefab1a9f623d0a873d0de0
 import  -/  random-1.1:System.Random 1f9783c2e4f478be012ca03febf119ac
 import  -/  snowball-1.0.0.1:NLP.Snowball cb5fa12a489b2d0b6821224ec4b760e8

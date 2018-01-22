@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-01-21 22:41:12.342847609 UTC
+2018-01-22 10:09:14.70865846 UTC
 
 interface projekt-0.1.0.0-Jjh2ddiGNrb2IxTA9KLrW9:Model 8022
-  interface hash: 3dcad801224ba66bc0551209d1f8e275
-  ABI hash: 9c2e263ef601aa1d938d4969c4cc1486
-  export-list hash: f31b2b0a850c13b5d28a73d2d52ca8f8
+  interface hash: c5f25d0df7a087b453c432f084b4acc8
+  ABI hash: 59bfd6bb8fcf11ceec0d0ddda33d68f3
+  export-list hash: 7bff46450ab8e60cf7dc990ead0e065f
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: c2e1a329d18b5eac05681f0df434e56a
   sig of: Nothing
@@ -13,6 +13,7 @@ interface projekt-0.1.0.0-Jjh2ddiGNrb2IxTA9KLrW9:Model 8022
   where
 exports:
   Model.hypothesis
+  Model.sigmoid
 module dependencies: Counter
 package dependencies: array-0.5.2.0 base-4.10.1.0 deepseq-1.4.3.0
                       directory-1.3.1.5 filepath-1.4.1.2 ghc-prim-0.5.1.1
@@ -76,12 +77,38 @@ bdd9e3c6be9aaf8459cb205bea62e5c5
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("projekt-0.1.0.0-Jjh2ddiGNrb2IxTA9KLrW9"#) -}
-d3133c74604ac5ecaf1176a6b7564ba6
+2e40f8be5092a05042999bce6d835f6a
   hypothesis ::
     GHC.Float.Floating a =>
     Data.Matrix.Matrix a -> Data.Matrix.Matrix a -> a
   {- Arity: 3,
-     Strictness: <S(S(LC(C(S))LL)LLLLLLLLLLLLLLLLLLLLLL),U(1*U(1*U(C(C1(U)),A,C(C1(U)),1*C1(U),A,A,C(U)),1*C1(C1(U)),A,A),A,1*C1(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)><L,1*U(U,U,U,U,U,U(U,U,U))><L,1*U(U,U,U,U,U,U(U,A,U))> -}
+     Strictness: <S(S(LC(C(S))LL)LLLLLLLLLLLLLLLLLLLLLL),U(U(U(C(C1(U)),A,C(C1(U)),C(U),A,A,C(U)),C(C1(U)),A,A),A,C(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)><L,1*U(U,U,U,U,U,U(U,U,U))><L,1*U(U,U,U,U,U,U(U,A,U))> -}
+2bd2aa948380e18017b96697192adefd
+  sigmoid :: GHC.Float.Floating a => a -> a
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LC(C(S))LL)LLLLLLLLLLLLLLLLLLLLLL),U(1*U(1*U(1*C1(C1(U)),A,A,1*C1(U),A,A,C(U)),1*C1(C1(U)),A,A),A,1*C1(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)><L,U>,
+     Unfolding: (\ @ a
+                   ($dFloating :: GHC.Float.Floating a)
+                   (eta :: a) ->
+                 let {
+                   $dFractional :: GHC.Real.Fractional a
+                   = GHC.Float.$p1Floating @ a $dFloating
+                 } in
+                 let {
+                   $dNum :: GHC.Num.Num a = GHC.Real.$p1Fractional @ a $dFractional
+                 } in
+                 GHC.Real./
+                   @ a
+                   $dFractional
+                   (GHC.Num.fromInteger @ a $dNum Model.sigmoid1)
+                   (GHC.Num.+
+                      @ a
+                      $dNum
+                      (GHC.Num.fromInteger @ a $dNum Model.sigmoid1)
+                      (GHC.Float.exp @ a $dFloating (GHC.Num.negate @ a $dNum eta)))) -}
+6bea161697eb7b2c99cf99eac2240db6
+  sigmoid1 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (1) -}
 vectorised variables:
 vectorised tycons:
 vectorised reused tycons:

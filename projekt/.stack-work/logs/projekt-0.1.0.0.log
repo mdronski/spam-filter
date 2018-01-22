@@ -1,9 +1,10 @@
-Configuring projekt-0.1.0.0...
 Preprocessing library for projekt-0.1.0.0..
 Building library for projekt-0.1.0.0..
-[2 of 4] Compiling Counter          ( src/Counter.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Counter.o )
-[3 of 4] Compiling Model            ( src/Model.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Model.o )
-[4 of 4] Compiling Parser           ( src/Parser.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Parser.o )
+[4 of 4] Compiling Model            ( src/Model.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Model.o )
+Preprocessing test suite 'projekt-test' for projekt-0.1.0.0..
+Building test suite 'projekt-test' for projekt-0.1.0.0..
+[2 of 2] Compiling Main             ( test/Spec.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/projekt-test/projekt-test-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/projekt-test/projekt-test ...
 Preprocessing executable 'projekt-exe' for projekt-0.1.0.0..
 Building executable 'projekt-exe' for projekt-0.1.0.0..
 [2 of 2] Compiling Main             ( app/Main.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/projekt-exe/projekt-exe-tmp/Main.o )
