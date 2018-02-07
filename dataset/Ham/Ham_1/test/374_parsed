@@ -1,1 +1,0 @@
- ok i guess that sysctl.conf is the best way of set /proc/sys/fs/file-max to a nice big number can you make a chang to /etc/sysctl.conf and then have it take effect without a reboot (to test it really)  john -- irish linux user group email URL for (un)subscript inform list maintain email

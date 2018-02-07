@@ -1,7 +1,0 @@
-i=6452
-
-for file in *
-do
-  mv "$file" "$i"
-  i=$((i+1))
-done

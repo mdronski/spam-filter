@@ -1,5 +1,0 @@
-Cases: 5  Tried: 0  Errors: 0  Failures: 0Cases: 5  Tried: 1  Errors: 0  Failures: 0Cases: 5  Tried: 2  Errors: 0  Failures: 0Cases: 5  Tried: 3  Errors: 0  Failures: 0Cases: 5  Tried: 4  Errors: 0  Failures: 0                                          Cases: 5  Tried: 5  Errors: 0  Failures: 0
-+++ OK, passed 100 tests.
-+++ OK, passed 100 tests.
-*** Failed! Falsifiable (after 14 tests and 1 shrink): 
-17.0

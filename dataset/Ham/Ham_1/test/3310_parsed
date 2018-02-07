@@ -1,1 +1,0 @@
-  "tp" == tim peter email write  first test result use tokenizer.tokenizer.tokenize_headers()  unmodifi .. second test result use  mboxtest.mytokenizer.tokenize_headers() this use all header  except receiv data and x-from_ ..  tri the latter again but call the base tokenize_headers() too sorri i haven't found the time to tri ani more test run perhap later today jeremi

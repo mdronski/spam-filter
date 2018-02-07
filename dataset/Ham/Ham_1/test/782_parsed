@@ -1,1 +1,0 @@
-  curious when i go into the boot prom an use   "set_params" i can tell it to mount number as root but  then it use the prom copi of the kernel (dodgi number  kernel) which doesn't know number so want to fsck up my disk boot prom on a cobalt is this an old mip base one how did you get to it -- irish linux user group email URL for (un)subscript inform list maintain email

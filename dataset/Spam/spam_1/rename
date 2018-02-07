@@ -1,7 +1,0 @@
-i=10000
-
-for file in *.*
-do
-  mv "$file" "$i"
-  i=$((i+1))
-done

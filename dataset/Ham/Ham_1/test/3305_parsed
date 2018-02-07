@@ -1,1 +1,0 @@
-  if and when we packag this perhap we should use barri trick ..  it not a *trick* it just requir this  package_dir = {'spambay .'}  in the setup script that has the nasti side effect of place all .pi file in the packag what about obvious execut script (like timtest or hammie) how can i keep them out of the packag skip

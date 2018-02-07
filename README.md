@@ -1,2 +1,0 @@
-# spam-filter
-haskell project

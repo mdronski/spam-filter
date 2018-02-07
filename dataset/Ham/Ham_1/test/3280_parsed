@@ -1,1 +1,0 @@
- [jeremi hylton]  here clarif of whi i did that pretti much what i had guess thank one more to tri  first test result use tokenizer.tokenizer.tokenize_headers()  unmodifi  ..  second test result use mboxtest.mytokenizer.tokenize_headers()  this use all header except receiv data and x-from_  .. tri the latter again but call the base tokenize_headers() too
