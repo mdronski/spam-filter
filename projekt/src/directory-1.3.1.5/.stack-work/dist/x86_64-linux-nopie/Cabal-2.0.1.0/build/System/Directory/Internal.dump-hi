@@ -1,0 +1,158 @@
+
+==================== FINAL INTERFACE ====================
+2018-01-07 17:56:27.266427351 UTC
+
+interface directory-1.3.1.5-JdmaiEqnzQB3mzsgSioc9g:System.Directory.Internal 8022
+  interface hash: 3413a899a5e5b6e16c457a0f0384bba9
+  ABI hash: e7eab40ba34be8fe4d69e6cfae540eb3
+  export-list hash: 38b057403d745abc3f072936d1ff0fa9
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: c53b4cff8d2077b2815c2685b52bbc03
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  System.Directory.Internal.C_utimensat.c_AT_FDCWD
+  System.Directory.Internal.C_utimensat.c_utimensat
+  System.Directory.Internal.C_utimensat.toCTimeSpec
+  System.Directory.Internal.C_utimensat.utimeOmit
+  System.Directory.Internal.Common.fileTypeIsDirectory
+  System.Directory.Internal.Common.getCurrentDirectory
+  System.Directory.Internal.Common.ioeAddLocation
+  System.Directory.Internal.Common.prependCurrentDirectory
+  System.Directory.Internal.Common.specializeErrorString
+  System.Directory.Internal.Common.tryIOErrorType
+  System.Directory.Internal.Posix.accessTimeFromMetadata
+  System.Directory.Internal.Posix.allWriteMode
+  System.Directory.Internal.Posix.c_PATH_MAX
+  System.Directory.Internal.Posix.c_free
+  System.Directory.Internal.Posix.c_realpath
+  System.Directory.Internal.Posix.fileSizeFromMetadata
+  System.Directory.Internal.Posix.fileTypeFromMetadata
+  System.Directory.Internal.Posix.getAccessPermissions
+  System.Directory.Internal.Posix.getFileMetadata
+  System.Directory.Internal.Posix.getSymbolicLinkMetadata
+  System.Directory.Internal.Posix.hasWriteMode
+  System.Directory.Internal.Posix.modeFromMetadata
+  System.Directory.Internal.Posix.modificationTimeFromMetadata
+  System.Directory.Internal.Posix.posix_accessTimeHiRes
+  System.Directory.Internal.Posix.posix_modificationTimeHiRes
+  System.Directory.Internal.Posix.setAccessPermissions
+  System.Directory.Internal.Posix.setFileMode
+  System.Directory.Internal.Posix.setFilePermissions
+  System.Directory.Internal.Posix.setWriteMode
+  System.Directory.Internal.Posix.withRealpath
+  System.Directory.Internal.C_utimensat.CTimeSpec{System.Directory.Internal.C_utimensat.CTimeSpec}
+  System.Directory.Internal.Common.FileType{System.Directory.Internal.Common.Directory System.Directory.Internal.Common.DirectoryLink System.Directory.Internal.Common.File System.Directory.Internal.Common.SymbolicLink}
+  System.Directory.Internal.Common.Permissions{System.Directory.Internal.Common.Permissions executable readable searchable writable}
+  System.Directory.Internal.Posix.Metadata
+  System.Directory.Internal.Posix.Mode
+module dependencies: System.Directory.Internal.C_utimensat
+                     System.Directory.Internal.Common System.Directory.Internal.Posix
+                     System.Directory.Internal.Prelude
+package dependencies: array-0.5.2.0 base-4.10.1.0* deepseq-1.4.3.0
+                      filepath-1.4.1.2 ghc-prim-0.5.1.1 integer-gmp-1.0.1.0 time-1.8.0.2
+                      unix-2.7.2.2
+orphans: time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Complex base-4.10.1.0:Data.Either
+                         base-4.10.1.0:Data.Functor.Compose base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+import  -/  System.Directory.Internal.C_utimensat 9caf1f2e8f97061cd1d029708061d7bd
+  exports: cd7c90326de4af9adb8d6f40a9194e89
+  CTimeSpec 66b1fc68cb9bfd64bb0d592867c72326
+  CTimeSpec 1b2f4f5ff44d56197d069a32342b1104
+  c_AT_FDCWD 867d898ff5d200bf312cb57f6d0311db
+  c_utimensat e3f29e61315c6c5c1095dee57b2a44e8
+  toCTimeSpec 5408fde78c59276bb73c29e2d6a4689c
+  utimeOmit 83e620f458775173077c32c6a49190d3
+import  -/  System.Directory.Internal.Common 728f09bb2850be2b9557aec9f77be4f4
+  exports: 3327771ead820504df6fabca776a849e
+  Directory 25efd25006e837a67777ff372df46355
+  DirectoryLink 5ef6c1bcd88ce64440d369f1f920cfe4
+  File e1548df5aa76bbf1a1d7188f565b4493
+  FileType 66ae3445c8ac254d77e0cb12139f1e4f
+  Permissions 50fcf4d6b26626acb9a1fde072524d95
+  Permissions 05c56fcd04912ddd5de747b14c77e87a
+  SymbolicLink ba6138643b4a30bb8adb6829cc64cc7a
+  executable 05c56fcd04912ddd5de747b14c77e87a
+  fileTypeIsDirectory 58005842802873f8b18dd1acbf20961d
+  getCurrentDirectory 343a272bbb3affbb62bfc63c32a962c2
+  ioeAddLocation 1f09f6d1f1e33cc896630f7fe50419de
+  prependCurrentDirectory f2c3806e1509072bce69ae5d3541114e
+  readable 05c56fcd04912ddd5de747b14c77e87a
+  searchable 05c56fcd04912ddd5de747b14c77e87a
+  specializeErrorString 993251ffed37e6fc36b8061cca744af2
+  tryIOErrorType f33953bef5200f1e1ac4718d98aad5c9
+  writable 05c56fcd04912ddd5de747b14c77e87a
+import  -/  System.Directory.Internal.Posix 74fde8265bcfdb4109c4e459a12c9e3a
+  exports: 2b6fe3d5769c7a591205cfb7d31583f7
+  Metadata 997f60991be6af91bc02cda54b17b17b
+  Mode cafd0fd17f3e072d8e250292b6ece91e
+  accessTimeFromMetadata 236f74211994f80fe1cf758e825f05af
+  allWriteMode 048a32c8ee93210dcb9e352516ba7247
+  c_PATH_MAX 25c311aa78d393b80ad851224db2d903
+  c_free 3da59b86554ac8304ef0dba3aca6b9eb
+  c_realpath f9d01cd750e6b23f159969264a71adb3
+  fileSizeFromMetadata 1f65fc10acafe85c9c9ab1a4f9f10223
+  fileTypeFromMetadata df8f5d2d7ed67b88e404c0b7d85e21de
+  getAccessPermissions 367e49c3e52a4d0dc01e2eb4809d063f
+  getFileMetadata 6e7eeab36ce5479a8b7a6d183bad99fc
+  getSymbolicLinkMetadata eeff9075ab5d583ee675b9d3552f21a4
+  hasWriteMode ddfbef90c598dc56bf90af9c438709ca
+  modeFromMetadata ac53dba3261b6f539779d523bbf9e660
+  modificationTimeFromMetadata 647c2fc48e8345a6f0facae8e5e06bd0
+  posix_accessTimeHiRes 34424ef63b87b0c72ccb849fa2ffaf91
+  posix_modificationTimeHiRes 333775950b2af9d26516c3dc47d505de
+  setAccessPermissions 6f554dd3add86f23f578ddf68dc660ff
+  setFileMode 4729f578be6741f10d74d6e7fef93d43
+  setFilePermissions de50a1f784cf069ca8d3bdde1c252a44
+  setWriteMode 9a373965fa1a14aaf41f733d5c359f22
+  withRealpath 492e57dc244acb966cc8d33589891c5a
+addDependentFile "HsDirectoryConfig.h"
+addDependentFile "/home/mdronski/.stack/programs/x86_64-linux/ghc-nopie-8.2.2/lib/ghc-8.2.2/include/ghcversion.h"
+addDependentFile ".stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/cabal_macros.h"
+addDependentFile "/usr/include/stdc-predef.h"
+469bda6693c932f1d929ceb54eb33185
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   System.Directory.Internal.$trModule3
+                   System.Directory.Internal.$trModule1) -}
+3183062bbc2bb2710f438cced92aa1a9
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   System.Directory.Internal.$trModule2) -}
+e50b69f1c35bb6c79378afe5329024e9
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("System.Directory.Internal"#) -}
+b3a18727d8dd285e09acf259c5897672
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   System.Directory.Internal.$trModule4) -}
+2ae8100aad49ec6888281063a5a12d53
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("directory-1.3.1.5-JdmaiEqnzQB3mzsgSioc9g"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

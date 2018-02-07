@@ -1,0 +1,243 @@
+
+==================== FINAL INTERFACE ====================
+2018-01-21 20:57:09.482140313 UTC
+
+interface main:CopyFile002 8022
+  interface hash: 3946c1edcd2207c144f6db33c2ed4f1f
+  ABI hash: d79a9d6824123a949230dbca5709be3b
+  export-list hash: 142c2390f2e61044dc6f8005ef059d58
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 96cda4d171844b9c139a00e66ee6eec2
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  CopyFile002.main
+module dependencies: Util
+package dependencies: array-0.5.2.0 base-4.10.1.0* deepseq-1.4.3.0
+                      directory-1.3.1.5 filepath-1.4.1.2 ghc-prim-0.5.1.1
+                      integer-gmp-1.0.1.0 time-1.8.0.2 unix-2.7.2.2
+orphans: time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Complex base-4.10.1.0:Data.Either
+                         base-4.10.1.0:Data.Functor.Compose base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+import  -/  base-4.10.1.0:Data.List 4ab7fa2a1b87502b23af891a384f0506
+import  -/  base-4.10.1.0:Data.OldList 555420b092ca8cf0a8f9666bc0e07dcf
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+import  -/  base-4.10.1.0:System.IO 6e5bb580370d8d71dc5888f723cea4b4
+import  -/  directory-1.3.1.5:System.Directory 674a63b5dfd5e6dd78c98f0675c7b451
+import  -/  directory-1.3.1.5:System.Directory.Internal.Prelude 80f416161b0247624c76ff798606c39d
+import  -/  ghc-prim-0.5.1.1:GHC.Types b1fd0716441595db508c1a74387bf394
+import  -/  Util be2abed7083a51f4bdf8855a2d51cf9d
+  exports: bd6a289d318cbda8f1f2ee2253928220
+  TestEnv a2cda7416f6d830e42cdb7d432cd2a75
+  expectEq d2c7922486099777f871dbfb26d4fa7f
+addDependentFile "tests/util.inl"
+addDependentFile "/home/mdronski/.stack/programs/x86_64-linux/ghc-nopie-8.2.2/lib/ghc-8.2.2/include/ghcversion.h"
+addDependentFile ".stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/autogen/cabal_macros.h"
+addDependentFile "/usr/include/stdc-predef.h"
+a87ee084a9a55908e69ed13b70a78522
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   CopyFile002.$trModule3
+                   CopyFile002.$trModule1) -}
+a3515a3d143aa5077f322465aef95c3e
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS CopyFile002.$trModule2) -}
+f79758754d1bd602b94c581f6f7fd053
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("CopyFile002"#) -}
+072ca8a09c546a0c4bff3d0d18b99b6b
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS CopyFile002.$trModule4) -}
+6e4cafa0daba83104479b80f03973ae4
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+e45d4b2a6b7587abbe7b70406ce9bad6
+  main :: Util.TestEnv -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <L,U(U(U),U,A,A)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                CopyFile002.main1
+                  `cast`
+                (<Util.TestEnv>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+a955c2e06e2c73aa3e94454c8ab0e435
+  main1 ::
+    Util.TestEnv
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,U(U(U),U,A,A)><S,U>,
+     Unfolding: (\ (_t :: Util.TestEnv)
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case System.IO.appendFile2
+                        @ ()
+                        CopyFile002.main_from
+                        GHC.IO.IOMode.WriteMode
+                        CopyFile002.main15
+                          `cast`
+                        (<GHC.IO.Handle.Types.Handle>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                        eta of ds1 { (#,#) ipv ipv1 ->
+                 case System.Directory.getDirectoryContents1
+                        CopyFile002.main13
+                        ipv of ds6 { (#,#) ipv2 ipv3 ->
+                 case Util.expectEq1
+                        @ [[GHC.Types.Char]]
+                        @ ()
+                        GHC.Classes.$fEq[]_$s$fEq[]2
+                        GHC.Show.$fShow[]_$s$fShow[]2
+                        GHC.Show.$fShow()
+                        _t
+                        CopyFile002.main11
+                        CopyFile002.main10
+                        GHC.Tuple.()
+                        CopyFile002.main9
+                        (Data.OldList.sortBy
+                           @ [GHC.Types.Char]
+                           GHC.Classes.$fOrd[]_$s$ccompare1
+                           (GHC.List.filter
+                              @ [GHC.Types.Char]
+                              System.Directory.listDirectory2
+                              ipv3))
+                        ipv2 of ds2 { (#,#) ipv4 ipv5 ->
+                 case System.Directory.copyFile1
+                        CopyFile002.main_from
+                        CopyFile002.main_to
+                        ipv4 of ds3 { (#,#) ipv6 ipv7 ->
+                 case System.Directory.getDirectoryContents1
+                        CopyFile002.main13
+                        ipv6 of ds4 { (#,#) ipv8 ipv9 ->
+                 case Util.expectEq1
+                        @ [[GHC.Types.Char]]
+                        @ ()
+                        GHC.Classes.$fEq[]_$s$fEq[]2
+                        GHC.Show.$fShow[]_$s$fShow[]2
+                        GHC.Show.$fShow()
+                        _t
+                        CopyFile002.main11
+                        CopyFile002.main8
+                        GHC.Tuple.()
+                        CopyFile002.main4
+                        (Data.OldList.sortBy
+                           @ [GHC.Types.Char]
+                           GHC.Classes.$fOrd[]_$s$ccompare1
+                           (GHC.List.filter
+                              @ [GHC.Types.Char]
+                              System.Directory.listDirectory2
+                              ipv9))
+                        ipv8 of ds5 { (#,#) ipv10 ipv11 ->
+                 case GHC.IO.Handle.FD.openFile1
+                        CopyFile002.main_to
+                        GHC.IO.IOMode.ReadMode
+                        ipv10 of ds7 { (#,#) ipv12 ipv13 ->
+                 case GHC.IO.Handle.Text.hGetContents1
+                        ipv13
+                        ipv12 of ds8 { (#,#) ipv14 ipv15 ->
+                 Util.expectEq1
+                   @ [GHC.Types.Char]
+                   @ ()
+                   GHC.Classes.$fEq[]_$s$fEq[]1
+                   GHC.Show.$fShow[]_$s$fShow[]1
+                   GHC.Show.$fShow()
+                   _t
+                   CopyFile002.main11
+                   CopyFile002.main3
+                   GHC.Tuple.()
+                   CopyFile002.main_contents
+                   ipv15
+                   ipv14 } } } } } } } }) -}
+0f4f3d3163ba81a64636fdff55cb9ffb
+  main10 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (11) -}
+9d701e7981a8394ed041aadff4b06162
+  main11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# CopyFile002.main12) -}
+2a6a2ba752e8267da2b5feae89118014
+  main12 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("tests/CopyFile002.hs"#) -}
+c4ebce94cc282746ee7df3f07aab2585
+  main13 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# CopyFile002.main14) -}
+4263eddd3653da92f2ed5ddef7864973
+  main14 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("."#) -}
+c0b6af97277566f0e64f15b46a43cee6
+  main15 ::
+    GHC.IO.Handle.Types.Handle
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (hdl :: GHC.IO.Handle.Types.Handle)[OneShot] ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   hdl
+                   CopyFile002.main_contents
+                   GHC.Types.False) -}
+39ad42ab34611acbc115d298afbf4abd
+  main2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("This is the data\n"#) -}
+084aa76efc0333f69bc66dd15109b0a6
+  main3 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (14) -}
+bbca14966c4eb05236fdc951c2546721
+  main4 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   CopyFile002.main_from
+                   CopyFile002.main5) -}
+19169ffabe3dcf2ed880e323ec5c566d
+  main5 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   CopyFile002.main_to
+                   (GHC.Types.[] @ [GHC.Types.Char])) -}
+500d762c2c5557984e1299bd10083e0f
+  main6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("target"#) -}
+d2dd84695ac01ae169eef0bd986ea8fa
+  main7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("source"#) -}
+aa2722eaedfff79e56c670e1b11fab25
+  main8 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (13) -}
+b023366bbb288b93435e60f533f7be3c
+  main9 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   CopyFile002.main_from
+                   (GHC.Types.[] @ [GHC.Types.Char])) -}
+c5c32dc0e3fe776b901c9f9a97eb9eaf
+  main_contents :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# CopyFile002.main2) -}
+4596c287f402b3941937a6e77d76a5ea
+  main_from :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# CopyFile002.main7) -}
+dce39a84025167efee70272b955177d6
+  main_to :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# CopyFile002.main6) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

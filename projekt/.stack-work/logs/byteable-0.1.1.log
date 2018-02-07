@@ -1,0 +1,21 @@
+Configuring byteable-0.1.1...
+Preprocessing library for byteable-0.1.1..
+Building library for byteable-0.1.1..
+[1 of 1] Compiling Data.Byteable    ( Data/Byteable.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Byteable.o )
+
+[;1mData/Byteable.hs:48:11: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Winline-rule-shadowing[0m[0m[;1m][0m[0m[;1m
+    Rule "constEqBytes/ByteString" may never fire
+      because ‘constEqBytes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘constEqBytes’[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m48 |[0m[0m {-# RULES [;1m[35m"constEqBytes/ByteString" constEqBytes = constEqByteString[0m[0m #-}
+[;1m[34m   |[0m[0m[;1m[35m           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0mPreprocessing library for byteable-0.1.1..
+Running Haddock on library for byteable-0.1.1..
+Haddock coverage:
+ 100% (  3 /  3) in 'Data.Byteable'
+Documentation created:
+.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/doc/html/byteable/index.html,
+.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/doc/html/byteable/byteable.txt
+Installing library in /home/mdronski/.stack/snapshots/x86_64-linux-nopie/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/byteable-0.1.1-4PLPgH6a2E14oN7yL5y3oL
+Registering library for byteable-0.1.1..

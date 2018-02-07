@@ -1,0 +1,14 @@
+Preprocessing library for projekt-0.1.0.0..
+Building library for projekt-0.1.0.0..
+[4 of 4] Compiling Model            ( src/Model.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Model.o )
+Preprocessing test suite 'projekt-test' for projekt-0.1.0.0..
+Building test suite 'projekt-test' for projekt-0.1.0.0..
+[2 of 2] Compiling Main             ( test/Spec.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/projekt-test/projekt-test-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/projekt-test/projekt-test ...
+Preprocessing executable 'projekt-exe' for projekt-0.1.0.0..
+Building executable 'projekt-exe' for projekt-0.1.0.0..
+[2 of 2] Compiling Main             ( app/Main.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/projekt-exe/projekt-exe-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/projekt-exe/projekt-exe ...
+Installing library in /home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux-nopie/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/projekt-0.1.0.0-Jjh2ddiGNrb2IxTA9KLrW9
+Installing executable projekt-exe in /home/mdronski/haskell/spam-filter/projekt/.stack-work/install/x86_64-linux-nopie/lts-10.0/8.2.2/bin
+Registering library for projekt-0.1.0.0..

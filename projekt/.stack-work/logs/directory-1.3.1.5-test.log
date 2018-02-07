@@ -1,0 +1,229 @@
+tests/CanonicalizePath.hs:14: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp"
+tests/CanonicalizePath.hs:15: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp"
+tests/CanonicalizePath.hs:16: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp"
+tests/CanonicalizePath.hs:17: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp"
+tests/CanonicalizePath.hs:27: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar"
+tests/CanonicalizePath.hs:28: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar"
+tests/CanonicalizePath.hs:29: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar"
+tests/CanonicalizePath.hs:30: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar"
+tests/CanonicalizePath.hs:31: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar"
+tests/CanonicalizePath.hs:32: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar"
+tests/CanonicalizePath.hs:33: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar"
+tests/CanonicalizePath.hs:42: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo"
+tests/CanonicalizePath.hs:43: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo"
+tests/CanonicalizePath.hs:44: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo"
+tests/CanonicalizePath.hs:45: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo"
+tests/CanonicalizePath.hs:46: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo"
+tests/CanonicalizePath.hs:47: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo"
+tests/CanonicalizePath.hs:58: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent"
+tests/CanonicalizePath.hs:59: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent"
+tests/CanonicalizePath.hs:60: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent"
+tests/CanonicalizePath.hs:61: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent"
+tests/CanonicalizePath.hs:62: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent"
+tests/CanonicalizePath.hs:63: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent"
+tests/CanonicalizePath.hs:64: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent"
+tests/CanonicalizePath.hs:65: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent"
+tests/CanonicalizePath.hs:70: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo"
+tests/CanonicalizePath.hs:80: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar"
+tests/CanonicalizePath.hs:81: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar/qux" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar/qux"
+tests/CanonicalizePath.hs:84: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo"
+tests/CanonicalizePath.hs:85: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo"
+tests/CanonicalizePath.hs:86: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar"
+tests/CanonicalizePath.hs:87: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar/qux" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/bar/qux"
+tests/CanonicalizePath.hs:93: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo"
+tests/CanonicalizePath.hs:99: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/non-existent"
+tests/CanonicalizePath.hs:100: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/somelink3" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo/somelink3"
+tests/CanonicalizePath.hs:107: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/loop1" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/loop1"
+tests/CanonicalizePath.hs:108: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/loop2" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/loop2"
+tests/CanonicalizePath.hs:113: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-CanonicalizePath.tmp/foo"
+tests/CopyFile001.hs:11: ["source"] equals ["source"]
+tests/CopyFile001.hs:13: ["source","target"] equals ["source","target"]
+tests/CopyFile001.hs:14: "This is the data\n" equals "This is the data\n"
+tests/CopyFile002.hs:11: ["source"] equals ["source"]
+tests/CopyFile002.hs:13: ["source","target"] equals ["source","target"]
+tests/CopyFile002.hs:14: "This is the data\n" equals "This is the data\n"
+tests/CopyFileWithMetadata.hs:17: ["a","b"] equals ["a","b"]
+tests/CopyFileWithMetadata.hs:24: ["a","b","c"] equals ["a","b","c"]
+tests/CopyFileWithMetadata.hs:26:"b": Permissions {readable = True, writable = False, executable = False, searchable = False} equals Permissions {readable = True, writable = False, executable = False, searchable = False}
+tests/CopyFileWithMetadata.hs:27:"b": 2000-01-01 00:00:00 UTC equals 2000-01-01 00:00:00 UTC
+tests/CopyFileWithMetadata.hs:28:"b": "This is the data\n" equals "This is the data\n"
+tests/CopyFileWithMetadata.hs:26:"c": Permissions {readable = True, writable = False, executable = False, searchable = False} equals Permissions {readable = True, writable = False, executable = False, searchable = False}
+tests/CopyFileWithMetadata.hs:27:"c": 2000-01-01 00:00:00 UTC equals 2000-01-01 00:00:00 UTC
+tests/CopyFileWithMetadata.hs:28:"c": "This is the data\n" equals "This is the data\n"
+tests/CreateDirectory001.hs:8: got expected exception (dir: createDirectory: already exists (File exists))
+tests/CreateDirectoryIfMissing001.hs:12: got expected exception (CreateDirectoryIfMissing001.d/a: createDirectory: does not exist (No such file or directory))
+tests/CreateDirectoryIfMissing001.hs:22: testing for race conditions ...
+tests/CreateDirectoryIfMissing001.hs:24: testing for race conditions ...
+tests/CreateDirectoryIfMissing001.hs:26: done.
+tests/CreateDirectoryIfMissing001.hs:30: got expected exception (CreateDirectoryIfMissing001.d: createDirectory: already exists (File exists))
+tests/CreateDirectoryIfMissing001.hs:36: got expected exception (CreateDirectoryIfMissing001.d/a: createDirectory: inappropriate type (Not a directory))
+tests/CurrentDirectory001.hs:11: [".",".."] equals [".",".."]
+tests/Directory001.hs:13: "Okay\n" equals "Okay\n"
+tests/DoesDirectoryExist001.hs:9: True
+tests/DoesDirectoryExist001.hs:13: True
+tests/DoesDirectoryExist001.hs:14: True
+tests/DoesPathExist.hs:8: True
+tests/DoesPathExist.hs:14: True
+tests/DoesPathExist.hs:15: True
+tests/DoesPathExist.hs:16: True
+tests/DoesPathExist.hs:17: True
+tests/DoesPathExist.hs:22: True
+tests/FileTime.hs:12: got expected exception (nonexistent-file: getAccessTime:getFileStatus: does not exist (No such file or directory))
+tests/FileTime.hs:14: got expected exception (nonexistent-file: setAccessTime:setFileTimes: does not exist (No such file or directory))
+tests/FileTime.hs:16: got expected exception (nonexistent-file: getModificationTime:getFileStatus: does not exist (No such file or directory))
+tests/FileTime.hs:18: got expected exception (nonexistent-file: setModificationTime:setFileTimes: does not exist (No such file or directory))
+tests/FileTime.hs:34:"foo": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
+tests/FileTime.hs:38:"foo": 2018-01-22 10:09:16.651472765 UTC is near 2018-01-22 10:09:16.651472765 UTC
+tests/FileTime.hs:46:"foo": 2018-01-22 08:09:16.656994562 UTC is near 2018-01-22 08:09:16.656994562 UTC
+tests/FileTime.hs:50:"foo": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
+tests/FileTime.hs:34:".": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
+tests/FileTime.hs:38:".": 2018-01-22 10:09:16.651472765 UTC is near 2018-01-22 10:09:16.651472765 UTC
+tests/FileTime.hs:46:".": 2018-01-22 08:09:16.656994562 UTC is near 2018-01-22 08:09:16.656994562 UTC
+tests/FileTime.hs:50:".": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
+tests/FileTime.hs:34:"": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
+tests/FileTime.hs:38:"": 2018-01-22 08:09:16.656994562 UTC is near 2018-01-22 08:09:16.656994562 UTC
+tests/FileTime.hs:46:"": 2018-01-22 08:09:16.656994562 UTC is near 2018-01-22 08:09:16.656994562 UTC
+tests/FileTime.hs:50:"": 2018-01-22 09:09:16.656994562 UTC is near 2018-01-22 09:09:16.656994562 UTC
+tests/FindFile001.hs:17: Just "./foo" equals Just "./foo"
+tests/FindFile001.hs:20: Just "./bar/foo" equals Just "./bar/foo"
+tests/FindFile001.hs:23: Just "./foo" equals Just "./foo"
+tests/FindFile001.hs:24: Just "bar/foo" equals Just "bar/foo"
+tests/FindFile001.hs:31:["qux","bar","."]: Just "qux/foo" equals Just "qux/foo"
+tests/FindFile001.hs:34:["qux","bar","."]: ["qux/foo"] equals ["qux/foo"]
+tests/FindFile001.hs:36:["qux","bar","."]: Just "bar/foo" equals Just "bar/foo"
+tests/FindFile001.hs:39:["qux","bar","."]: ["bar/foo","./foo"] equals ["bar/foo","./foo"]
+tests/FindFile001.hs:42:["qux","bar","."]: Nothing equals Nothing
+tests/FindFile001.hs:44:["qux","bar","."]: [] equals []
+tests/FindFile001.hs:31:["bar","qux","."]: Just "qux/foo" equals Just "qux/foo"
+tests/FindFile001.hs:34:["bar","qux","."]: ["qux/foo"] equals ["qux/foo"]
+tests/FindFile001.hs:36:["bar","qux","."]: Just "bar/foo" equals Just "bar/foo"
+tests/FindFile001.hs:39:["bar","qux","."]: ["bar/foo","./foo"] equals ["bar/foo","./foo"]
+tests/FindFile001.hs:42:["bar","qux","."]: Nothing equals Nothing
+tests/FindFile001.hs:44:["bar","qux","."]: [] equals []
+tests/FindFile001.hs:31:[".","bar","qux"]: Just "qux/foo" equals Just "qux/foo"
+tests/FindFile001.hs:34:[".","bar","qux"]: ["qux/foo"] equals ["qux/foo"]
+tests/FindFile001.hs:36:[".","bar","qux"]: Just "./foo" equals Just "./foo"
+tests/FindFile001.hs:39:[".","bar","qux"]: ["./foo","bar/foo"] equals ["./foo","bar/foo"]
+tests/FindFile001.hs:42:[".","bar","qux"]: Nothing equals Nothing
+tests/FindFile001.hs:44:[".","bar","qux"]: [] equals []
+tests/FindFile001.hs:31:["bar",".","qux"]: Just "qux/foo" equals Just "qux/foo"
+tests/FindFile001.hs:34:["bar",".","qux"]: ["qux/foo"] equals ["qux/foo"]
+tests/FindFile001.hs:36:["bar",".","qux"]: Just "bar/foo" equals Just "bar/foo"
+tests/FindFile001.hs:39:["bar",".","qux"]: ["bar/foo","./foo"] equals ["bar/foo","./foo"]
+tests/FindFile001.hs:42:["bar",".","qux"]: Nothing equals Nothing
+tests/FindFile001.hs:44:["bar",".","qux"]: [] equals []
+tests/FindFile001.hs:31:[".","qux","bar"]: Just "qux/foo" equals Just "qux/foo"
+tests/FindFile001.hs:34:[".","qux","bar"]: ["qux/foo"] equals ["qux/foo"]
+tests/FindFile001.hs:36:[".","qux","bar"]: Just "./foo" equals Just "./foo"
+tests/FindFile001.hs:39:[".","qux","bar"]: ["./foo","bar/foo"] equals ["./foo","bar/foo"]
+tests/FindFile001.hs:42:[".","qux","bar"]: Nothing equals Nothing
+tests/FindFile001.hs:44:[".","qux","bar"]: [] equals []
+tests/FindFile001.hs:31:["qux",".","bar"]: Just "qux/foo" equals Just "qux/foo"
+tests/FindFile001.hs:34:["qux",".","bar"]: ["qux/foo"] equals ["qux/foo"]
+tests/FindFile001.hs:36:["qux",".","bar"]: Just "./foo" equals Just "./foo"
+tests/FindFile001.hs:39:["qux",".","bar"]: ["./foo","bar/foo"] equals ["./foo","bar/foo"]
+tests/FindFile001.hs:42:["qux",".","bar"]: Nothing equals Nothing
+tests/FindFile001.hs:44:["qux",".","bar"]: [] equals []
+tests/FindFile001.hs:50: Just "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-FindFile001.tmp/bar/foo" equals Just "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-FindFile001.tmp/bar/foo"
+tests/FindFile001.hs:51: Nothing equals Nothing
+tests/GetDirContents001.hs:10: [".",".."] equals [".",".."]
+tests/GetDirContents001.hs:12: [] equals []
+tests/GetDirContents001.hs:18: [".","..","f1","f10","f100","f11","f12","f13","f14","f15","f16","f17","f18","f19","f2","f20","f21","f22","f23","f24","f25","f26","f27","f28","f29","f3","f30","f31","f32","f33","f34","f35","f36","f37","f38","f39","f4","f40","f41","f42","f43","f44","f45","f46","f47","f48","f49","f5","f50","f51","f52","f53","f54","f55","f56","f57","f58","f59","f6","f60","f61","f62","f63","f64","f65","f66","f67","f68","f69","f7","f70","f71","f72","f73","f74","f75","f76","f77","f78","f79","f8","f80","f81","f82","f83","f84","f85","f86","f87","f88","f89","f9","f90","f91","f92","f93","f94","f95","f96","f97","f98","f99"] equals [".","..","f1","f10","f100","f11","f12","f13","f14","f15","f16","f17","f18","f19","f2","f20","f21","f22","f23","f24","f25","f26","f27","f28","f29","f3","f30","f31","f32","f33","f34","f35","f36","f37","f38","f39","f4","f40","f41","f42","f43","f44","f45","f46","f47","f48","f49","f5","f50","f51","f52","f53","f54","f55","f56","f57","f58","f59","f6","f60","f61","f62","f63","f64","f65","f66","f67","f68","f69","f7","f70","f71","f72","f73","f74","f75","f76","f77","f78","f79","f8","f80","f81","f82","f83","f84","f85","f86","f87","f88","f89","f9","f90","f91","f92","f93","f94","f95","f96","f97","f98","f99"]
+tests/GetDirContents001.hs:20: ["f1","f10","f100","f11","f12","f13","f14","f15","f16","f17","f18","f19","f2","f20","f21","f22","f23","f24","f25","f26","f27","f28","f29","f3","f30","f31","f32","f33","f34","f35","f36","f37","f38","f39","f4","f40","f41","f42","f43","f44","f45","f46","f47","f48","f49","f5","f50","f51","f52","f53","f54","f55","f56","f57","f58","f59","f6","f60","f61","f62","f63","f64","f65","f66","f67","f68","f69","f7","f70","f71","f72","f73","f74","f75","f76","f77","f78","f79","f8","f80","f81","f82","f83","f84","f85","f86","f87","f88","f89","f9","f90","f91","f92","f93","f94","f95","f96","f97","f98","f99"] equals ["f1","f10","f100","f11","f12","f13","f14","f15","f16","f17","f18","f19","f2","f20","f21","f22","f23","f24","f25","f26","f27","f28","f29","f3","f30","f31","f32","f33","f34","f35","f36","f37","f38","f39","f4","f40","f41","f42","f43","f44","f45","f46","f47","f48","f49","f5","f50","f51","f52","f53","f54","f55","f56","f57","f58","f59","f6","f60","f61","f62","f63","f64","f65","f66","f67","f68","f69","f7","f70","f71","f72","f73","f74","f75","f76","f77","f78","f79","f8","f80","f81","f82","f83","f84","f85","f86","f87","f88","f89","f9","f90","f91","f92","f93","f94","f95","f96","f97","f98","f99"]
+tests/GetDirContents002.hs:7: got expected exception (nonexistent: getDirectoryContents:openDirStream: does not exist (No such file or directory))
+tests/GetFileSize.hs:13: 0 equals 0
+tests/GetFileSize.hs:14: 44 equals 44
+tests/GetHomeDirectory001.hs:8: True
+tests/GetPermissions001.hs:34: True
+tests/GetPermissions001.hs:35: True
+tests/GetPermissions001.hs:36: True
+tests/GetPermissions001.hs:37: True
+tests/GetPermissions001.hs:44: True
+tests/GetPermissions001.hs:45: True
+tests/GetPermissions001.hs:46: True
+tests/GetPermissions001.hs:51: True
+tests/GetPermissions001.hs:52: True
+tests/GetPermissions001.hs:53: True
+tests/GetPermissions001.hs:54: True
+tests/GetPermissions001.hs:18: True
+tests/GetPermissions001.hs:20: True
+tests/GetPermissions001.hs:22: True
+tests/GetPermissions001.hs:24: True
+tests/GetPermissions001.hs:26: True
+tests/LongPaths.hs:27: True
+tests/LongPaths.hs:28: [] equals []
+tests/LongPaths.hs:30: False equals False
+tests/LongPaths.hs:41: True
+tests/LongPaths.hs:42: True
+tests/LongPaths.hs:43: True
+tests/LongPaths.hs:44: True
+tests/LongPaths.hs:47: 3 equals 3
+tests/LongPaths.hs:57: "." equals "."
+tests/MakeAbsolute.hs:15: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp"
+tests/MakeAbsolute.hs:16: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp"
+tests/MakeAbsolute.hs:17: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp"
+tests/MakeAbsolute.hs:21: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/"
+tests/MakeAbsolute.hs:22: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/"
+tests/MakeAbsolute.hs:27: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo"
+tests/MakeAbsolute.hs:28: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo"
+tests/MakeAbsolute.hs:29: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo"
+tests/MakeAbsolute.hs:34: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo/" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo/"
+tests/MakeAbsolute.hs:35: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo/" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo/"
+tests/MakeAbsolute.hs:36: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo/" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-MakeAbsolute.tmp/foo/"
+tests/PathIsSymbolicLink.hs:14: True
+tests/PathIsSymbolicLink.hs:15: True
+tests/PathIsSymbolicLink.hs:16: "x" equals "x"
+tests/PathIsSymbolicLink.hs:17: "a" equals "a"
+tests/PathIsSymbolicLink.hs:18: False equals False
+tests/PathIsSymbolicLink.hs:19: False equals False
+tests/PathIsSymbolicLink.hs:24: True
+tests/PathIsSymbolicLink.hs:25: True
+tests/PathIsSymbolicLink.hs:30: got expected exception (y: pathIsSymbolicLink:getSymbolicLinkStatus: does not exist (No such file or directory))
+tests/PathIsSymbolicLink.hs:31: got expected exception (b: pathIsSymbolicLink:getSymbolicLinkStatus: does not exist (No such file or directory))
+tests/PathIsSymbolicLink.hs:32: False equals False
+tests/PathIsSymbolicLink.hs:33: False equals False
+tests/RemoveDirectoryRecursive001.hs:37: [".","..","a","b","c","d"] equals [".","..","a","b","c","d"]
+tests/RemoveDirectoryRecursive001.hs:39: [".","..","t","x","y","z"] equals [".","..","t","x","y","z"]
+tests/RemoveDirectoryRecursive001.hs:41: [".","..","g"] equals [".","..","g"]
+tests/RemoveDirectoryRecursive001.hs:43: [".","..","h"] equals [".","..","h"]
+tests/RemoveDirectoryRecursive001.hs:45: [".","..","t","x","y","z"] equals [".","..","t","x","y","z"]
+tests/RemoveDirectoryRecursive001.hs:54: [".","..","a","b","c"] equals [".","..","a","b","c"]
+tests/RemoveDirectoryRecursive001.hs:56: [".","..","t","x","y","z"] equals [".","..","t","x","y","z"]
+tests/RemoveDirectoryRecursive001.hs:58: [".","..","g"] equals [".","..","g"]
+tests/RemoveDirectoryRecursive001.hs:60: [".","..","h"] equals [".","..","h"]
+tests/RemoveDirectoryRecursive001.hs:68: [".","..","a","b"] equals [".","..","a","b"]
+tests/RemoveDirectoryRecursive001.hs:70: [".","..","t","x","y","z"] equals [".","..","t","x","y","z"]
+tests/RemoveDirectoryRecursive001.hs:72: [".","..","g"] equals [".","..","g"]
+tests/RemoveDirectoryRecursive001.hs:77: [".","..","a"] equals [".","..","a"]
+tests/RemoveDirectoryRecursive001.hs:79: [".","..","t","x","y","z"] equals [".","..","t","x","y","z"]
+tests/RemoveDirectoryRecursive001.hs:84: [".",".."] equals [".",".."]
+tests/RemovePathForcibly.hs:43: [".","..","a","b","c","d"] equals [".","..","a","b","c","d"]
+tests/RemovePathForcibly.hs:45: [".","..","t","x","y","z"] equals [".","..","t","x","y","z"]
+tests/RemovePathForcibly.hs:47: [".","..","g"] equals [".","..","g"]
+tests/RemovePathForcibly.hs:49: [".","..","h"] equals [".","..","h"]
+tests/RemovePathForcibly.hs:51: [".","..","t","x","y","z"] equals [".","..","t","x","y","z"]
+tests/RemovePathForcibly.hs:56: [".","..","a","b","c"] equals [".","..","a","b","c"]
+tests/RemovePathForcibly.hs:58: [".","..","t","x","y","z"] equals [".","..","t","x","y","z"]
+tests/RemovePathForcibly.hs:60: [".","..","g"] equals [".","..","g"]
+tests/RemovePathForcibly.hs:62: [".","..","h"] equals [".","..","h"]
+tests/RemovePathForcibly.hs:67: [".","..","a","b"] equals [".","..","a","b"]
+tests/RemovePathForcibly.hs:69: [".","..","t","x","y","z"] equals [".","..","t","x","y","z"]
+tests/RemovePathForcibly.hs:71: [".","..","g"] equals [".","..","g"]
+tests/RemovePathForcibly.hs:76: [".","..","a"] equals [".","..","a"]
+tests/RemovePathForcibly.hs:78: [".","..","t","x","y","z"] equals [".","..","t","x","y","z"]
+tests/RemovePathForcibly.hs:83: [".",".."] equals [".",".."]
+tests/RenameDirectory.hs:8: ["a"] equals ["a"]
+tests/RenameDirectory.hs:10: ["b"] equals ["b"]
+tests/RenameFile001.hs:9: "test" equals "test"
+tests/RenameFile001.hs:12: "test" equals "test"
+tests/RenamePath.hs:9: ["a"] equals ["a"]
+tests/RenamePath.hs:11: ["b"] equals ["b"]
+tests/RenamePath.hs:15: "test" equals "test"
+tests/RenamePath.hs:18: "test" equals "test"
+tests/T8482.hs:15: got expected exception (T8482.dir: renameFile: inappropriate type (is a directory))
+tests/T8482.hs:16: got expected exception (T8482.dir: renameFile: inappropriate type (is a directory))
+tests/T8482.hs:17: got expected exception (.: renameFile: inappropriate type (is a directory))
+tests/WithCurrentDirectory.hs:11: [] equals []
+tests/WithCurrentDirectory.hs:15: "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-WithCurrentDirectory.tmp" equals "/home/mdronski/haskell/spam-filter/projekt/src/directory-1.3.1.5/dist/test-WithCurrentDirectory.tmp"
+tests/WithCurrentDirectory.hs:17: ["testfile"] equals ["testfile"]
+tests/WithCurrentDirectory.hs:19: "some data\n" equals "some data\n"

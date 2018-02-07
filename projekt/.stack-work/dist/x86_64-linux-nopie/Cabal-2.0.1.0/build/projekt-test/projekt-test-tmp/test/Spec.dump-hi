@@ -1,0 +1,1001 @@
+
+==================== FINAL INTERFACE ====================
+2018-01-22 10:09:15.60844558 UTC
+
+interface main:Main 8022
+  interface hash: 441f2a483922b779e92c969a744ad7b0
+  ABI hash: bbbbdfdd03230df195993fe867a10bb5
+  export-list hash: 894768142c04ff8b634e4a83efead386
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 826a18a5626ac65c052c3c62ac5c8e3e
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: HUnit-1.6.0.0 QuickCheck-2.10.1 array-0.5.2.0
+                      base-4.10.1.0 binary-0.8.5.1 bytestring-0.10.8.2 call-stack-0.1.0
+                      containers-0.5.10.2 deepseq-1.4.3.0 directory-1.3.1.5
+                      filepath-1.4.1.2 ghc-boot-th-8.2.2 ghc-prim-0.5.1.1
+                      integer-gmp-1.0.1.0 loop-0.3.0 matrix-0.3.5.0 pretty-1.1.3.3
+                      primitive-0.6.2.0 projekt-0.1.0.0 random-1.1 snowball-1.0.0.1
+                      template-haskell-2.12.0.0 text-1.2.2.2 text-icu-0.7.0.1
+                      tf-random-0.5 time-1.8.0.2 transformers-0.5.2.0 unix-2.7.2.2
+                      vector-0.12.0.1
+orphans: text-1.2.2.2:Data.Text binary-0.8.5.1:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.2.2:Data.Text.Show
+         vector-0.12.0.1:Data.Vector.Fusion.Bundle
+         transformers-0.5.2.0:Control.Monad.Trans.Error
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Complex base-4.10.1.0:Data.Either
+                         base-4.10.1.0:Data.Functor.Compose base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats containers-0.5.10.2:Data.IntMap.Internal
+                         containers-0.5.10.2:Data.IntSet.Internal
+                         containers-0.5.10.2:Data.Map.Internal
+                         containers-0.5.10.2:Data.Sequence.Internal
+                         containers-0.5.10.2:Data.Set.Internal containers-0.5.10.2:Data.Tree
+                         ghc-boot-th-8.2.2:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.2.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0:Control.Monad.Primitive
+                         primitive-0.6.2.0:Data.Primitive.Array
+                         template-haskell-2.12.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2:Data.Text vector-0.12.0.1:Data.Vector
+import  -/  HUnit-1.6.0.0:Test.HUnit 80cbcb3315181d19695a82478844cc0c
+import  -/  HUnit-1.6.0.0:Test.HUnit.Base e6af8f3ac825f8be9192c09dd680a677
+import  -/  HUnit-1.6.0.0:Test.HUnit.Lang 20dd0c0d81dbf5e2ac6dd8fba57b0de2
+import  -/  HUnit-1.6.0.0:Test.HUnit.Text c157be2820cb77c40c7c000e12896840
+import  -/  QuickCheck-2.10.1:Test.QuickCheck e7cc3bba148aa39b704c2b95e2084a35
+import  -/  QuickCheck-2.10.1:Test.QuickCheck.Test c162859ba616322a12646f49be6f3b79
+import  -/  base-4.10.1.0:Control.Monad ebed2e8e7444944e0c1d827c6faf40a4
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  base-4.10.1.0:GHC.List e3060fbeb44ce0038e6b4dedf2dd9cf1
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+import  -/  ghc-prim-0.5.1.1:GHC.Classes 93e2660065dce9329577e83d76d8f0d4
+import  -/  projekt-0.1.0.0:Counter f72295a234b9979284166c196c32021d
+import  -/  projekt-0.1.0.0:Model 59bfd6bb8fcf11ceec0d0ddda33d68f3
+import  -/  projekt-0.1.0.0:Parser 82c68351ccefab1a9f623d0a873d0de0
+f0f63804a0b1ebf3b8f3512261137368
+  $s$fTestable(->)4 ::
+    ([GHC.Types.Char] -> GHC.Types.Bool)
+    -> Test.QuickCheck.Random.QCGen
+    -> GHC.Types.Int
+    -> Test.QuickCheck.Property.Rose Test.QuickCheck.Property.Result
+  {- Arity: 3,
+     Strictness: <L,C(U)><S(SSSSLL),1*U(U,U,U,1*U,A,A)><L,U>,
+     Inline: [0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: [GHC.Types.Char] -> GHC.Types.Bool)
+                   (w1 :: Test.QuickCheck.Random.QCGen)
+                   (w2 :: GHC.Types.Int) ->
+                 case w1
+                        `cast`
+                      (Test.QuickCheck.Random.N:QCGen[0]) of ww { System.Random.TF.Gen.TFGen ww1 ww2 ww3 ww4 ww5 ww6 ->
+                 Main.$w$dTestable w ww1 ww2 ww3 ww4 w2 }) -}
+864e50fe88ed3c4d552b00f8a81c7018
+  $s$fTestable(->)5 :: [GHC.Types.Char] -> [[GHC.Types.Char]]
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: [GHC.Types.Char]) ->
+                 Test.QuickCheck.Arbitrary.shrinkList
+                   @ GHC.Types.Char
+                   Test.QuickCheck.Arbitrary.$fArbitraryChar_$cshrink
+                   eta) -}
+46ace37c29035e0f98851ba5d5df00d3
+  $s$fTestable(->)6 ::
+    Test.QuickCheck.Random.QCGen -> GHC.Types.Int -> [GHC.Types.Char]
+  {- Arity: 2,
+     Strictness: <S(SSSSLL),1*U(U,U,U,1*U,A,A)><S(S),1*U(U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (w1 :: Test.QuickCheck.Random.QCGen) (w2 :: GHC.Types.Int) ->
+                 case w1
+                        `cast`
+                      (Test.QuickCheck.Random.N:QCGen[0]) of ww { System.Random.TF.Gen.TFGen ww1 ww2 ww3 ww4 ww5 ww6 ->
+                 case w2 of ww7 { GHC.Types.I# ww8 ->
+                 Test.QuickCheck.Gen.$wlistOf
+                   @ GHC.Types.Char
+                   Test.QuickCheck.Arbitrary.$fArbitraryChar_$carbitrary
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   ww8 } }) -}
+9d72b2fddb818bcd8919052935e0f1f3
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule3 Main.$trModule1) -}
+3108ceeaf5a318be844de422b45de9d8
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$trModule2) -}
+e5875966b74dad2d29772660b8a75e33
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Main"#) -}
+33bd129667974f0a0ba4a893af79107d
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$trModule4) -}
+d026be77cb9ced20e35a61514e0458aa
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+8c0f1aaa4c8d9f64cc9153c1c7fb791d
+  $w$dTestable ::
+    ([GHC.Types.Char] -> GHC.Types.Bool)
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Word#
+    -> GHC.Prim.Word#
+    -> GHC.Prim.Int#
+    -> GHC.Types.Int
+    -> Test.QuickCheck.Property.Rose Test.QuickCheck.Property.Result
+  {- Arity: 6, Strictness: <L,C(U)><S,U><S,U><S,U><S,1*U><L,U>,
+     Inline: [0],
+     Unfolding: (\ (w :: [GHC.Types.Char] -> GHC.Types.Bool)
+                   (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Word#)
+                   (ww2 :: GHC.Prim.Word#)
+                   (ww3 :: GHC.Prim.Int#)
+                   (w1 :: GHC.Types.Int) ->
+                 Test.QuickCheck.Property.$wforAllShrink
+                   @ [GHC.Types.Char]
+                   @ GHC.Types.Bool
+                   GHC.Show.$fShow[]_$s$fShow[]1
+                   Test.QuickCheck.Property.$fTestableBool_$cproperty
+                     `cast`
+                   (Trans
+                        (Sym (Test.QuickCheck.Property.N:Testable[0] <GHC.Types.Bool>_N))
+                        (Nth:2
+                             (Nth:3
+                                  (Nth:3
+                                       (Trans
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary
+                                                [GHC.Types.Char]>_R
+                                             ->_R <GHC.Show.Show [GHC.Types.Char]>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     GHC.Types.Bool>_R
+                                             ->_R Test.QuickCheck.Property.N:Testable[0]
+                                                      <[GHC.Types.Char] -> GHC.Types.Bool>_N)
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary
+                                                [GHC.Types.Char]>_R
+                                             ->_R <GHC.Show.Show [GHC.Types.Char]>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     GHC.Types.Bool>_R
+                                             ->_R <[GHC.Types.Char] -> GHC.Types.Bool>_R
+                                             ->_R Trans
+                                                      (Test.QuickCheck.Property.N:Property[0])
+                                                      (Test.QuickCheck.Gen.N:Gen[0]
+                                                           (Test.QuickCheck.Property.N:Prop[0]))))))))
+                   Main.$s$fTestable(->)6
+                     `cast`
+                   (Sym (Test.QuickCheck.Gen.N:Gen[0] <[GHC.Types.Char]>_R))
+                   Main.$s$fTestable(->)5
+                   w
+                   ww
+                   ww1
+                   ww2
+                   ww3
+                   w1) -}
+ae70fe31c38aa8fa5a693d6d26c698f5
+  $w$j ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>, Inline: [0],
+     Unfolding: (\ (w :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case Test.QuickCheck.Test.$wquickCheckWithResult
+                        @ (GHC.Base.String -> GHC.Types.Bool)
+                        Main.$s$fTestable(->)4
+                          `cast`
+                        (Nth:3
+                             (Nth:3
+                                  (Nth:3
+                                       (Trans
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary
+                                                [GHC.Types.Char]>_R
+                                             ->_R <GHC.Show.Show [GHC.Types.Char]>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     GHC.Types.Bool>_R
+                                             ->_R <[GHC.Types.Char] -> GHC.Types.Bool>_R
+                                             ->_R Trans
+                                                      (Sym (Test.QuickCheck.Gen.N:Gen[0]
+                                                                (Test.QuickCheck.Property.N:Prop[0])))
+                                                      (Sym (Test.QuickCheck.Property.N:Property[0])))
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary
+                                                [GHC.Types.Char]>_R
+                                             ->_R <GHC.Show.Show [GHC.Types.Char]>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     GHC.Types.Bool>_R
+                                             ->_R Sym (Test.QuickCheck.Property.N:Testable[0]
+                                                           <[GHC.Types.Char]
+                                                            -> GHC.Types.Bool>_N))))))
+                        (GHC.Base.Nothing @ (Test.QuickCheck.Random.QCGen, GHC.Types.Int))
+                        Test.QuickCheck.Test.stdArgs2
+                        Test.QuickCheck.Test.stdArgs1
+                        Test.QuickCheck.Test.stdArgs2
+                        GHC.Types.True
+                        GHC.Base.maxInt
+                        Main.main9
+                        w of ds8 { (#,#) ipv ipv1 ->
+                 case Test.QuickCheck.Test.$wquickCheckWithResult
+                        @ (GHC.Base.String -> GHC.Base.String -> GHC.Types.Bool)
+                        Main.main8
+                          `cast`
+                        (Nth:3
+                             (Nth:3
+                                  (Nth:3
+                                       (Trans
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary
+                                                [GHC.Types.Char]>_R
+                                             ->_R <GHC.Show.Show [GHC.Types.Char]>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     (GHC.Base.String -> GHC.Types.Bool)>_R
+                                             ->_R <[GHC.Types.Char]
+                                                   -> GHC.Base.String -> GHC.Types.Bool>_R
+                                             ->_R Trans
+                                                      (Sym (Test.QuickCheck.Gen.N:Gen[0]
+                                                                (Test.QuickCheck.Property.N:Prop[0])))
+                                                      (Sym (Test.QuickCheck.Property.N:Property[0])))
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary
+                                                [GHC.Types.Char]>_R
+                                             ->_R <GHC.Show.Show [GHC.Types.Char]>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     (GHC.Base.String -> GHC.Types.Bool)>_R
+                                             ->_R Sym (Test.QuickCheck.Property.N:Testable[0]
+                                                           <[GHC.Types.Char]
+                                                            -> GHC.Base.String
+                                                            -> GHC.Types.Bool>_N))))))
+                        (GHC.Base.Nothing @ (Test.QuickCheck.Random.QCGen, GHC.Types.Int))
+                        Test.QuickCheck.Test.stdArgs2
+                        Test.QuickCheck.Test.stdArgs1
+                        Test.QuickCheck.Test.stdArgs2
+                        GHC.Types.True
+                        GHC.Base.maxInt
+                        Main.main4
+                        ipv of ds9 { (#,#) ipv2 ipv3 ->
+                 case Test.QuickCheck.Test.$wquickCheckWithResult
+                        @ (GHC.Types.Float -> GHC.Types.Bool)
+                        Main.main3
+                          `cast`
+                        (Nth:3
+                             (Nth:3
+                                  (Nth:3
+                                       (Trans
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary GHC.Types.Float>_R
+                                             ->_R <GHC.Show.Show GHC.Types.Float>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     GHC.Types.Bool>_R
+                                             ->_R <GHC.Types.Float -> GHC.Types.Bool>_R
+                                             ->_R Trans
+                                                      (Sym (Test.QuickCheck.Gen.N:Gen[0]
+                                                                (Test.QuickCheck.Property.N:Prop[0])))
+                                                      (Sym (Test.QuickCheck.Property.N:Property[0])))
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary GHC.Types.Float>_R
+                                             ->_R <GHC.Show.Show GHC.Types.Float>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     GHC.Types.Bool>_R
+                                             ->_R Sym (Test.QuickCheck.Property.N:Testable[0]
+                                                           <GHC.Types.Float
+                                                            -> GHC.Types.Bool>_N))))))
+                        (GHC.Base.Nothing @ (Test.QuickCheck.Random.QCGen, GHC.Types.Int))
+                        Test.QuickCheck.Test.stdArgs2
+                        Test.QuickCheck.Test.stdArgs1
+                        Test.QuickCheck.Test.stdArgs2
+                        GHC.Types.True
+                        GHC.Base.maxInt
+                        Main.main2
+                        ipv2 of ds10 { (#,#) ipv4 ipv5 ->
+                 (# ipv4, GHC.Tuple.() #) } } }) -}
+796fcf8d62d81a16ac03344ad5b3f4c8
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+b790e11bfb13a84e1aeeacc51784964a
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case Test.HUnit.Text.runTestTT5 of ww { Test.HUnit.Text.PutText ww1 ww2 ->
+                 case Test.HUnit.Text.$wrunTestText
+                        @ GHC.Types.Int
+                        ww1
+                        ww2
+                        Main.main12
+                        s of ds8 { (#,#) ipv ipv1 ->
+                 case ipv1 of wild { (,) counts' ds ->
+                 case ds of wild3 { GHC.Types.I# ds9 ->
+                 case ds9 of ds3 {
+                   DEFAULT
+                   -> case Test.HUnit.Text.runTestTT2
+                             `cast`
+                           (GHC.Types.N:IO[0] <Test.HUnit.Base.Counts>_R)
+                             ipv of ds10 { (#,#) ipv2 ipv3 ->
+                      Main.$w$j ipv2 }
+                   0# -> Main.$w$j ipv } } } } }) -}
+b5aab201756aa9e8390e15e2054317b5
+  main10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main11) -}
+ba7499fba207bc86973f2dccb198f631
+  main11 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("."#) -}
+fc557be01fbffb89ce30c096805b8ffd
+  main12 :: Test.HUnit.Base.Test
+  {- Strictness: m2,
+     Unfolding: (Test.HUnit.Base.TestList Main.main13) -}
+28573beda37478fc6efbd63c06e4bdbd
+  main13 :: [Test.HUnit.Base.Test]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.HUnit.Base.Test
+                   Main.main83
+                   Main.main14) -}
+9b5beaa821889f33f601c6d638f6fe66
+  main14 :: [Test.HUnit.Base.Test]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.HUnit.Base.Test
+                   Main.main68
+                   Main.main15) -}
+cf276aeafef85a2ad5232e75957490c0
+  main15 :: [Test.HUnit.Base.Test]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.HUnit.Base.Test
+                   Main.main46
+                   Main.main16) -}
+480ce7bf2c0485301398c7fcef3a0330
+  main16 :: [Test.HUnit.Base.Test]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.HUnit.Base.Test
+                   Main.main25
+                   Main.main17) -}
+28dc6b2b85bd239458ae2a3d6288b891
+  main17 :: [Test.HUnit.Base.Test]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.HUnit.Base.Test
+                   Main.main18
+                   (GHC.Types.[] @ Test.HUnit.Base.Test)) -}
+4450ad251447f51adc5733d2b4168718
+  main18 :: Test.HUnit.Base.Test
+  {- Strictness: m3,
+     Unfolding: (Test.HUnit.Base.TestLabel Main.main23 Main.main19) -}
+1c5f9cc948e0d332a0e9ee08f4778d5f
+  main19 :: Test.HUnit.Base.Test
+  {- Strictness: m1,
+     Unfolding: (Test.HUnit.Base.TestCase
+                   Main.main20 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+b6bcda088ab77ee5389f531c893afcdd
+  main2 :: GHC.Types.Float -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ (x :: GHC.Types.Float) ->
+                 case Model.sigmoid
+                        @ GHC.Types.Float
+                        GHC.Float.$fFloatingFloat
+                        x of wild { GHC.Types.F# x1 ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.gtFloat# x1 0.0#) of wild3 {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.ltFloat# x1 1.0#) } }) -}
+6901c0edc27551c18063021dedff220b
+  main20 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case GHC.Classes.$fEq[]_$c==
+                        @ GHC.Integer.Type.Integer
+                        GHC.Integer.Type.$fEqInteger
+                        Main.main_eta1
+                        Main.main_eta1 of wild {
+                   GHC.Types.False -> Main.main21 eta3
+                   GHC.Types.True -> (# eta3, GHC.Tuple.() #) }) -}
+b6953e8d4e6ef306ec6a6dfa74fc0fd0
+  main21 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <B,U>x -}
+cf2eb5d304fe64a8f450f446777ccfd3
+  main22 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (3) -}
+84e8cc2a6b4d196f044b47b9a6a3fc94
+  main23 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main24) -}
+7368720799137af15fa0c1c0585e327c
+  main24 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("test5"#) -}
+8fc3b9334b7e1d84d0927956786788de
+  main25 :: Test.HUnit.Base.Test
+  {- Strictness: m3,
+     Unfolding: (Test.HUnit.Base.TestLabel Main.main44 Main.main26) -}
+05030f0e46015b8a7a41d7feb4402819
+  main26 :: Test.HUnit.Base.Test
+  {- Strictness: m1,
+     Unfolding: (Test.HUnit.Base.TestCase
+                   Main.main27 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+008e487fecdca65056a398b4c939e735
+  main27 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case GHC.Classes.$fEq[]_$c==
+                        @ GHC.Integer.Type.Integer
+                        GHC.Integer.Type.$fEqInteger
+                        Main.main_eta3
+                        Main.main_eta2 of wild {
+                   GHC.Types.False -> Main.main28 eta3
+                   GHC.Types.True -> (# eta3, GHC.Tuple.() #) }) -}
+9b75f6c6e986b96175d92b96952586c6
+  main28 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <B,U>x -}
+4baa699320e80096266f4f55c44953bd
+  main29 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Main.main32
+                   Main.main30) -}
+8aa35364648c3d69651852c8a7fd1af1
+  main3 ::
+    (GHC.Types.Float -> GHC.Types.Bool)
+    -> Test.QuickCheck.Random.QCGen
+    -> GHC.Types.Int
+    -> Test.QuickCheck.Property.Rose Test.QuickCheck.Property.Result
+  {- Arity: 3,
+     Strictness: <L,C(U)><S(SSSSLL),1*U(U,U,U,1*U,A,A)><L,U>,
+     Unfolding: (\ (f :: GHC.Types.Float -> GHC.Types.Bool)[OneShot]
+                   (eta :: Test.QuickCheck.Random.QCGen)
+                   (eta1 :: GHC.Types.Int)[OneShot] ->
+                 case eta
+                        `cast`
+                      (Test.QuickCheck.Random.N:QCGen[0]) of ww { System.Random.TF.Gen.TFGen ww1 ww2 ww3 ww4 ww5 ww6 ->
+                 Test.QuickCheck.Property.$wforAllShrink
+                   @ GHC.Types.Float
+                   @ GHC.Types.Bool
+                   GHC.Float.$fShowFloat
+                   Test.QuickCheck.Property.$fTestableBool_$cproperty
+                     `cast`
+                   (Trans
+                        (Sym (Test.QuickCheck.Property.N:Testable[0] <GHC.Types.Bool>_N))
+                        (Nth:2
+                             (Nth:3
+                                  (Nth:3
+                                       (Trans
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary GHC.Types.Float>_R
+                                             ->_R <GHC.Show.Show GHC.Types.Float>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     GHC.Types.Bool>_R
+                                             ->_R Test.QuickCheck.Property.N:Testable[0]
+                                                      <GHC.Types.Float -> GHC.Types.Bool>_N)
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary GHC.Types.Float>_R
+                                             ->_R <GHC.Show.Show GHC.Types.Float>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     GHC.Types.Bool>_R
+                                             ->_R <GHC.Types.Float -> GHC.Types.Bool>_R
+                                             ->_R Trans
+                                                      (Test.QuickCheck.Property.N:Property[0])
+                                                      (Test.QuickCheck.Gen.N:Gen[0]
+                                                           (Test.QuickCheck.Property.N:Prop[0]))))))))
+                   Test.QuickCheck.Arbitrary.$fArbitraryFixed_$sarbitrarySizedFractional
+                     `cast`
+                   (Sym (Test.QuickCheck.Gen.N:Gen[0] <GHC.Types.Float>_R))
+                   Test.QuickCheck.Arbitrary.shrinkRealFrac_$sshrinkRealFrac
+                   f
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   eta1 }) -}
+386b031e7e04096257ab8ec8a03d3bc6
+  main30 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Main.main31
+                   (GHC.Types.[] @ GHC.Integer.Type.Integer)) -}
+c7d0a16118a077665d4f9aaae627d5a6
+  main31 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (0) -}
+fe8414be0835c567db00f86f4a090b8d
+  main32 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (1) -}
+1c417a9ba8f3781baa281134c756755b
+  main33 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Main.main37
+                   Main.main34) -}
+0f3bf483828fc229003fff377c9e40f7
+  main34 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Main.main35
+                   (GHC.Types.[] @ [GHC.Types.Char])) -}
+f7fbb9144e861ec1e006d437834f95e2
+  main35 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main36) -}
+b375fa131eec380e5f8083ff288321f3
+  main36 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ala"#) -}
+fe44fe2a373f3b96709ab6b25bfa96fd
+  main37 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main38) -}
+01009f6cc9df854d78f41bef17ed3bf6
+  main38 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ma"#) -}
+8fc4a57bb793c580100bb7fafc4b5dca
+  main39 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Main.main35
+                   Main.main40) -}
+28a0b7650d677b76d33dee31a87891a2
+  main4 :: GHC.Base.String -> GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: (\ (s :: GHC.Base.String) (c :: GHC.Base.String) ->
+                 GHC.Base.eqString
+                   (Parser.parseChar
+                      (GHC.Base.++
+                         @ GHC.Types.Char
+                         s
+                         (GHC.CString.unpackAppendCString# Main.main7 c)))
+                   Main.main5) -}
+d48dedca1659de4b026484b18bb30c81
+  main40 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Main.main37
+                   Main.main41) -}
+bbfe09fd903f4ed57c6d11bf7b27bd39
+  main41 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Main.main42
+                   (GHC.Types.[] @ [GHC.Types.Char])) -}
+e00fd4a617826d5bd9bc693355222489
+  main42 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main43) -}
+90030d2819bb2104e392f148c29edd82
+  main43 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("kota"#) -}
+f6d71412a6cce95c09a69305e33cc902
+  main44 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main45) -}
+c59f900288c57c66896e44d7e3e4a22f
+  main45 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("test4"#) -}
+34fd3d87f874389ec1ccb49562fb1a32
+  main46 :: Test.HUnit.Base.Test
+  {- Strictness: m3,
+     Unfolding: (Test.HUnit.Base.TestLabel Main.main66 Main.main47) -}
+7f5448793ca69df65adfc90e4a901d85
+  main47 :: Test.HUnit.Base.Test
+  {- Strictness: m1,
+     Unfolding: (Test.HUnit.Base.TestCase
+                   Main.main48 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+50f2eda11eff38168c568acf162cf4cd
+  main48 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case GHC.Base.eqString Main.main64 Main.main62 of wild {
+                   GHC.Types.False
+                   -> let {
+                        expectedMsg2 :: GHC.Base.String
+                        = GHC.Show.showLitString Main.main62 GHC.Show.$fShow[]1
+                      } in
+                      let {
+                        expectedMsg3 :: GHC.Base.String
+                        = GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)3 expectedMsg2
+                      } in
+                      case Test.HUnit.Lang.assertEqual_go Main.main60 of wild3 { () ->
+                      case Test.HUnit.Lang.assertEqual_go expectedMsg3 of wild4 { () ->
+                      let {
+                        actualMsg1 :: GHC.Base.String
+                        = GHC.Show.showLitString Main.main64 GHC.Show.$fShow[]1
+                      } in
+                      let {
+                        actualMsg2 :: GHC.Base.String
+                        = GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)3 actualMsg1
+                      } in
+                      case Test.HUnit.Lang.assertEqual_go actualMsg2 of wild5 { () ->
+                      Test.HUnit.Lang.assertEqual12
+                        expectedMsg3
+                        (GHC.Base.Just @ GHC.Base.String Main.main60)
+                        actualMsg2
+                        (GHC.Stack.Types.PushCallStack
+                           Test.HUnit.Lang.assertEqual10
+                           Test.HUnit.Lang.assertEqual2
+                           Main.main49)
+                        eta3 } } }
+                   GHC.Types.True -> (# eta3, GHC.Tuple.() #) }) -}
+baca0004783add2281f02c477c59352b
+  main49 :: GHC.Stack.Types.CallStack
+  {- Strictness: m2,
+     Unfolding: (GHC.Stack.Types.PushCallStack
+                   Main.main58
+                   Main.main50
+                   GHC.Stack.Types.EmptyCallStack) -}
+f5b3082da639c360019dacae19f1a541
+  main5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main6) -}
+dae5ea2530738f4c0d0666342210e84c
+  main50 :: GHC.Stack.Types.SrcLoc
+  {- Strictness: m,
+     Unfolding: (GHC.Stack.Types.SrcLoc
+                   Main.main57
+                   Main.main56
+                   Main.main54
+                   Main.main53
+                   Main.main52
+                   Main.main53
+                   Main.main51) -}
+e9eef05d22858b72c9136c0f1cda3a0e
+  main51 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 93#) -}
+edca0bf1b2970ed5011dd5fe6794c280
+  main52 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 27#) -}
+f0a4eeb501b7d6194b1ffff4313dd62c
+  main53 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 20#) -}
+9da068bc852dec5cc59e1cee85f5c58d
+  main54 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main55) -}
+e033f84c1acb6746690acd52ee0e54bf
+  main55 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("test/Spec.hs"#) -}
+9e9f3b301bb2b6537e51e179f62d9015
+  main56 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.$trModule2) -}
+8242c8c654bdbfbe907fe7be577a3933
+  main57 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.$trModule4) -}
+c46b23151ec142e3263bf7247e217305
+  main58 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main59) -}
+3eb495cc610905af1c3f24331c81b194
+  main59 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("assertEqual"#) -}
+fe5b3dcd9ec118acf770e07b812d3373
+  main6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("email"#) -}
+ca217f1747e7575969ed791d5b31983b
+  main60 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main61) -}
+b738012a84d9277fd470c6c4622766a8
+  main61 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("tooLower test"#) -}
+8e9928cf17f862625247e2cbbc9ab392
+  main62 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main63) -}
+f4bdd6c3aab11a90d5961f9854d310d6
+  main63 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ala ma kota"#) -}
+0a5517cc29a5d884b51a4a2abd6ae944
+  main64 :: GHC.Base.String
+  {- Unfolding: (Parser.tooLower
+                   (GHC.CString.unpackCString# Main.main65)) -}
+1131b9e859ebcdc64268c22ae277af6d
+  main65 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Ala ma Kota"#) -}
+08fb5fabe9d5157d0981e636cee8e3a5
+  main66 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main67) -}
+064957b66d883a100aa948f4f3378a93
+  main67 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("test3"#) -}
+ee4252450f7d9c0cc1c50505fd4c2505
+  main68 :: Test.HUnit.Base.Test
+  {- Strictness: m3,
+     Unfolding: (Test.HUnit.Base.TestLabel Main.main81 Main.main69) -}
+0f6cfad97eb4f442a7ff8e16d534aabf
+  main69 :: Test.HUnit.Base.Test
+  {- Strictness: m1,
+     Unfolding: (Test.HUnit.Base.TestCase
+                   Main.main70 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+423f8c971b2f729ca5df194df9d2e3d5
+  main7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("@"#) -}
+29b1d51bfb9915af30a22884e9630e13
+  main70 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case Main.main77 of wild {
+                   GHC.Types.False
+                   -> case Test.HUnit.Lang.assertEqual_go Main.main75 of wild3 { () ->
+                      case Test.HUnit.Lang.assertEqual_go
+                             GHC.Show.$fShowBool1 of wild4 { () ->
+                      case Test.HUnit.Lang.assertEqual_go
+                             GHC.Show.$fShowBool3 of wild5 { () ->
+                      Test.HUnit.Lang.assertEqual12
+                        GHC.Show.$fShowBool1
+                        (GHC.Base.Just @ GHC.Base.String Main.main75)
+                        GHC.Show.$fShowBool3
+                        (GHC.Stack.Types.PushCallStack
+                           Test.HUnit.Lang.assertEqual10
+                           Test.HUnit.Lang.assertEqual2
+                           Main.main71)
+                        eta3 } } }
+                   GHC.Types.True -> (# eta3, GHC.Tuple.() #) }) -}
+5df6a76e0c2f41c3c568b2b8b552eda1
+  main71 :: GHC.Stack.Types.CallStack
+  {- Strictness: m2,
+     Unfolding: (GHC.Stack.Types.PushCallStack
+                   Main.main58
+                   Main.main72
+                   GHC.Stack.Types.EmptyCallStack) -}
+3202248c33170b2e891395e80e2e4d33
+  main72 :: GHC.Stack.Types.SrcLoc
+  {- Strictness: m,
+     Unfolding: (GHC.Stack.Types.SrcLoc
+                   Main.main57
+                   Main.main56
+                   Main.main54
+                   Main.main74
+                   Main.main52
+                   Main.main74
+                   Main.main73) -}
+bea0b7374c86204d07323d0fec506b04
+  main73 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 91#) -}
+67b8991852d5d29dbe430a34584333d9
+  main74 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 19#) -}
+c6f9f0e130d8d0855bbe0bfe40d4429d
+  main75 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main76) -}
+b7892a6a1e8fb3c82bc7ed6e7df78314
+  main76 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("prefix test"#) -}
+e49075eb023242305e61465c4a7fc4aa
+  main77 :: GHC.Types.Bool
+  {- Unfolding: (Parser.prefix
+                   (GHC.CString.unpackCString# Main.main80)
+                   Main.main78) -}
+cbef3e6a8a5b1aa14e64937a491cbf4d
+  main78 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main79) -}
+5a884e19f6cba84cbca710078cd1d235
+  main79 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("http://clam.com"#) -}
+e2a8a2f628073fd670cdb6c4ef7f32ce
+  main8 ::
+    ([GHC.Types.Char] -> GHC.Base.String -> GHC.Types.Bool)
+    -> Test.QuickCheck.Random.QCGen
+    -> GHC.Types.Int
+    -> Test.QuickCheck.Property.Rose Test.QuickCheck.Property.Result
+  {- Arity: 3,
+     Strictness: <L,C(U)><S(SSSSLL),1*U(U,U,U,1*U,A,A)><L,U>,
+     Unfolding: (\ (f :: [GHC.Types.Char]
+                         -> GHC.Base.String -> GHC.Types.Bool)[OneShot]
+                   (eta :: Test.QuickCheck.Random.QCGen)
+                   (eta1 :: GHC.Types.Int)[OneShot] ->
+                 case eta
+                        `cast`
+                      (Test.QuickCheck.Random.N:QCGen[0]) of ww { System.Random.TF.Gen.TFGen ww1 ww2 ww3 ww4 ww5 ww6 ->
+                 Test.QuickCheck.Property.$wforAllShrink
+                   @ [GHC.Types.Char]
+                   @ (GHC.Base.String -> GHC.Types.Bool)
+                   GHC.Show.$fShow[]_$s$fShow[]1
+                   Main.$s$fTestable(->)4
+                     `cast`
+                   (Trans
+                        (Nth:3
+                             (Nth:3
+                                  (Nth:3
+                                       (Trans
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary
+                                                [GHC.Types.Char]>_R
+                                             ->_R <GHC.Show.Show [GHC.Types.Char]>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     GHC.Types.Bool>_R
+                                             ->_R <[GHC.Types.Char] -> GHC.Types.Bool>_R
+                                             ->_R Trans
+                                                      (Sym (Test.QuickCheck.Gen.N:Gen[0]
+                                                                (Test.QuickCheck.Property.N:Prop[0])))
+                                                      (Sym (Test.QuickCheck.Property.N:Property[0])))
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary
+                                                [GHC.Types.Char]>_R
+                                             ->_R <GHC.Show.Show [GHC.Types.Char]>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     GHC.Types.Bool>_R
+                                             ->_R Sym (Test.QuickCheck.Property.N:Testable[0]
+                                                           <[GHC.Types.Char]
+                                                            -> GHC.Types.Bool>_N))))))
+                        (Nth:2
+                             (Nth:3
+                                  (Nth:3
+                                       (Trans
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary
+                                                [GHC.Types.Char]>_R
+                                             ->_R <GHC.Show.Show [GHC.Types.Char]>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     (GHC.Base.String -> GHC.Types.Bool)>_R
+                                             ->_R Test.QuickCheck.Property.N:Testable[0]
+                                                      <[GHC.Types.Char]
+                                                       -> GHC.Base.String -> GHC.Types.Bool>_N)
+                                            (<Test.QuickCheck.Arbitrary.Arbitrary
+                                                [GHC.Types.Char]>_R
+                                             ->_R <GHC.Show.Show [GHC.Types.Char]>_R
+                                             ->_R <Test.QuickCheck.Property.Testable
+                                                     (GHC.Base.String -> GHC.Types.Bool)>_R
+                                             ->_R <[GHC.Types.Char]
+                                                   -> GHC.Base.String -> GHC.Types.Bool>_R
+                                             ->_R Trans
+                                                      (Test.QuickCheck.Property.N:Property[0])
+                                                      (Test.QuickCheck.Gen.N:Gen[0]
+                                                           (Test.QuickCheck.Property.N:Prop[0]))))))))
+                   Main.$s$fTestable(->)6
+                     `cast`
+                   (Sym (Test.QuickCheck.Gen.N:Gen[0] <[GHC.Types.Char]>_R))
+                   Main.$s$fTestable(->)5
+                   f
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   eta1 }) -}
+bb755cae6384948b2ed38d0f53cb6634
+  main80 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("http"#) -}
+9b625daf0008da48c1f683f8b097ad83
+  main81 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main82) -}
+2289ac4e594f154ea546a24319cff50c
+  main82 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("test2"#) -}
+6dd2946f0586fe45610a6aa113530b4a
+  main83 :: Test.HUnit.Base.Test
+  {- Strictness: m3,
+     Unfolding: (Test.HUnit.Base.TestLabel Main.main95 Main.main84) -}
+87533faa1c0e987d50434a94da943d00
+  main84 :: Test.HUnit.Base.Test
+  {- Strictness: m1,
+     Unfolding: (Test.HUnit.Base.TestCase
+                   Main.main85 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+33947d785f9cabd0aa12aa7c264b33f5
+  main85 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case Main.main92 of wild {
+                   GHC.Types.False
+                   -> case Test.HUnit.Lang.assertEqual_go Main.main90 of wild3 { () ->
+                      case Test.HUnit.Lang.assertEqual_go
+                             GHC.Show.$fShowBool1 of wild4 { () ->
+                      case Test.HUnit.Lang.assertEqual_go
+                             GHC.Show.$fShowBool3 of wild5 { () ->
+                      Test.HUnit.Lang.assertEqual12
+                        GHC.Show.$fShowBool1
+                        (GHC.Base.Just @ GHC.Base.String Main.main90)
+                        GHC.Show.$fShowBool3
+                        (GHC.Stack.Types.PushCallStack
+                           Test.HUnit.Lang.assertEqual10
+                           Test.HUnit.Lang.assertEqual2
+                           Main.main86)
+                        eta3 } } }
+                   GHC.Types.True -> (# eta3, GHC.Tuple.() #) }) -}
+4290397e6179ce3ecf9a37bcc228e3c3
+  main86 :: GHC.Stack.Types.CallStack
+  {- Strictness: m2,
+     Unfolding: (GHC.Stack.Types.PushCallStack
+                   Main.main58
+                   Main.main87
+                   GHC.Stack.Types.EmptyCallStack) -}
+c9160f41b9fd8e9e5c6642b3e72ce052
+  main87 :: GHC.Stack.Types.SrcLoc
+  {- Strictness: m,
+     Unfolding: (GHC.Stack.Types.SrcLoc
+                   Main.main57
+                   Main.main56
+                   Main.main54
+                   Main.main89
+                   Main.main52
+                   Main.main89
+                   Main.main88) -}
+42f19da98a00ecc9fc0e46da42691cc4
+  main88 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 92#) -}
+52b0aa8bace010c6dbc2923c1f2086a9
+  main89 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 18#) -}
+a98bb615c34f5cbea4fcf0f38ea48364
+  main9 :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Base.String) ->
+                 GHC.Base.eqString
+                   (Parser.delete_punctuation_mark
+                      (GHC.Base.++ @ GHC.Types.Char s Main.main10))
+                   s) -}
+65805a2251b6af680dda9dfb7c456ba5
+  main90 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main91) -}
+e276d32624e323531f19120c59a112d8
+  main91 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("substring test"#) -}
+897b2a295ade3f56c20b239432450159
+  main92 :: GHC.Types.Bool
+  {- Unfolding: (Parser.substring Main.main35 Main.main93) -}
+a81f9098ac0b9c872a3dc18ddcf5aefb
+  main93 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main94) -}
+9cee2d4e6fb0bcde65322d14604f2f95
+  main94 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ma ala kota"#) -}
+455e3c68927073b361ba3f13ad312363
+  main95 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.main96) -}
+d74782f009e271478672ee1f391e2d87
+  main96 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("test1"#) -}
+ab9ab594c1e8841af19e1acadabdffc5
+  main97 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+d563fe03b19f63ea9b5099881256a531
+  main_eta1 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Main.main22
+                   (GHC.Types.[] @ GHC.Integer.Type.Integer)) -}
+63bf80c206b9996ee727a2749408ce9a
+  main_eta2 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Main.main32
+                   Main.main29) -}
+21876a6478ed9505e5ee35b1bea2d18b
+  main_eta3 :: [GHC.Integer.Type.Integer]
+  {- Unfolding: (Counter.convertToVec
+                   @ [GHC.Types.Char]
+                   @ GHC.Integer.Type.Integer
+                   GHC.Num.$fNumInteger
+                   GHC.Classes.$fEq[]_$s$fEq[]1
+                   Main.main39
+                   Main.main33) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

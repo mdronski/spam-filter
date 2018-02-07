@@ -1,0 +1,96 @@
+
+==================== FINAL INTERFACE ====================
+2018-01-21 20:57:08.677884943 UTC
+
+interface main:PathIsSymbolicLink 8022
+  interface hash: 6efde5056794daa9b96942155b25e149
+  ABI hash: 7371fff2c3be0fb8183630ac73a14748
+  export-list hash: f5c10c1d08fcaaf29962c1bed8ed6bbe
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 96cda4d171844b9c139a00e66ee6eec2
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  PathIsSymbolicLink.main
+module dependencies: TestUtils Util
+package dependencies: array-0.5.2.0 base-4.10.1.0* deepseq-1.4.3.0
+                      directory-1.3.1.5 filepath-1.4.1.2 ghc-prim-0.5.1.1
+                      integer-gmp-1.0.1.0 time-1.8.0.2 unix-2.7.2.2
+orphans: time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Complex base-4.10.1.0:Data.Either
+                         base-4.10.1.0:Data.Functor.Compose base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+import  -/  base-4.10.1.0:System.IO 6e5bb580370d8d71dc5888f723cea4b4
+import  -/  base-4.10.1.0:System.IO.Error 93d92b7da56c5ff8e1a9c831cb2a2e3f
+import  -/  directory-1.3.1.5:System.Directory 674a63b5dfd5e6dd78c98f0675c7b451
+import  -/  directory-1.3.1.5:System.Directory.Internal.Prelude 80f416161b0247624c76ff798606c39d
+import  -/  ghc-prim-0.5.1.1:GHC.Types b1fd0716441595db508c1a74387bf394
+import  -/  TestUtils 44b9bdf54f6759c14ac34460c08ba37c
+  exports: 206240f270f24807139cd8ad8bff11d4
+  supportsSymlinks 5a39e400153d71a6998250bf014910b4
+import  -/  Util be2abed7083a51f4bdf8855a2d51cf9d
+  exports: bd6a289d318cbda8f1f2ee2253928220
+  TestEnv a2cda7416f6d830e42cdb7d432cd2a75
+  expect a04a7356ad9c9c3a0cd7efbf55e7bd32
+  expectEq d2c7922486099777f871dbfb26d4fa7f
+  expectIOErrorType 50701796241c2da9bf16723bf0ab8f6b
+addDependentFile "tests/util.inl"
+addDependentFile "/home/mdronski/.stack/programs/x86_64-linux/ghc-nopie-8.2.2/lib/ghc-8.2.2/include/ghcversion.h"
+addDependentFile ".stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/autogen/cabal_macros.h"
+addDependentFile "/usr/include/stdc-predef.h"
+efecf5146e0bbedf64fbe24899451317
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   PathIsSymbolicLink.$trModule3
+                   PathIsSymbolicLink.$trModule1) -}
+1bce8920aaccee5101acf3658f9b48b1
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS PathIsSymbolicLink.$trModule2) -}
+28a94f4150f35607d5ba166af6bad4ac
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("PathIsSymbolicLink"#) -}
+ef0b5ac192a74dd29c69f44b1bf6d214
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS PathIsSymbolicLink.$trModule4) -}
+6359acb7a85dee00882033607093d0c1
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+fe8b38c41d60b54b34e92367703ce0ec
+  main :: Util.TestEnv -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <L,1*U(U(U),U,A,A)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                PathIsSymbolicLink.main1
+                  `cast`
+                (<Util.TestEnv>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+b07156f6b17012f90b3cf60db714a60c
+  main1 ::
+    Util.TestEnv
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,1*U(U(U),U,A,A)><S,U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

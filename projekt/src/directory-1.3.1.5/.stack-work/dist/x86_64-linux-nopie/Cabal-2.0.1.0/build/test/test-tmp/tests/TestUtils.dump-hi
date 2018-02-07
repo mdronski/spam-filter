@@ -1,0 +1,243 @@
+
+==================== FINAL INTERFACE ====================
+2018-01-21 20:57:07.776752547 UTC
+
+interface main:TestUtils 8022
+  interface hash: bb61c854976cfb45ea1842580f64ec6f
+  ABI hash: 44b9bdf54f6759c14ac34460c08ba37c
+  export-list hash: 206240f270f24807139cd8ad8bff11d4
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 96cda4d171844b9c139a00e66ee6eec2
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  TestUtils.copyPathRecursive
+  TestUtils.modifyPermissions
+  TestUtils.supportsSymlinks
+  TestUtils.symlinkOrCopy
+module dependencies:
+package dependencies: array-0.5.2.0 base-4.10.1.0* deepseq-1.4.3.0
+                      directory-1.3.1.5 filepath-1.4.1.2 ghc-prim-0.5.1.1
+                      integer-gmp-1.0.1.0 time-1.8.0.2 unix-2.7.2.2
+orphans: time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Complex base-4.10.1.0:Data.Either
+                         base-4.10.1.0:Data.Functor.Compose base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+import  -/  base-4.10.1.0:Data.Foldable 9ed87455d68e87ff2b5b8725eae9897e
+import  -/  base-4.10.1.0:Data.Tuple 8fa1305aa5032ea35e2a54fa5f1e78f9
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  base-4.10.1.0:GHC.IO e261d8b68ccf81a359626fa520b57d1d
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+import  -/  base-4.10.1.0:System.IO.Error 93d92b7da56c5ff8e1a9c831cb2a2e3f
+import  -/  directory-1.3.1.5:System.Directory 674a63b5dfd5e6dd78c98f0675c7b451
+import  -/  directory-1.3.1.5:System.Directory.Internal.Common 728f09bb2850be2b9557aec9f77be4f4
+import  -/  directory-1.3.1.5:System.Directory.Internal.Prelude 80f416161b0247624c76ff798606c39d
+import  -/  filepath-1.4.1.2:System.FilePath 3751e022be1498b82ed80e7d6465cd1a
+import  -/  filepath-1.4.1.2:System.FilePath.Posix e53ce4f7e12552941b411aaefd9d2247
+import  -/  ghc-prim-0.5.1.1:GHC.Classes 93e2660065dce9329577e83d76d8f0d4
+import  -/  ghc-prim-0.5.1.1:GHC.Types b1fd0716441595db508c1a74387bf394
+addDependentFile "/home/mdronski/.stack/programs/x86_64-linux/ghc-nopie-8.2.2/lib/ghc-8.2.2/include/ghcversion.h"
+addDependentFile ".stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/autogen/cabal_macros.h"
+addDependentFile "/usr/include/stdc-predef.h"
+e3049cb3eb820b341678c082597db62e
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   TestUtils.$trModule3
+                   TestUtils.$trModule1) -}
+b44aeab8df3a7671e74fcf7e62bcaa67
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS TestUtils.$trModule2) -}
+2dc50c2d37e1c513df37fa244672c26a
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("TestUtils"#) -}
+7180b2ae68d1501ce3e2b1d3e6011122
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS TestUtils.$trModule4) -}
+a7d662111340c632deafe2ec59a33f46
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+17695e31600b32c8bc317a5d5c11cda9
+  copyPathRecursive ::
+    GHC.IO.FilePath -> GHC.IO.FilePath -> GHC.Types.IO ()
+  {- Arity: 3, Strictness: <L,U><L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                TestUtils.copyPathRecursive1
+                  `cast`
+                (<GHC.IO.FilePath>_R
+                 ->_R <GHC.IO.FilePath>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+4cde539344c3d2c2ba7cc23a9edbdfc8
+  copyPathRecursive1 ::
+    GHC.IO.FilePath
+    -> GHC.IO.FilePath
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <L,U><L,U><S,U> -}
+349f97b1f645b9781d17c4dc9b7e5a54
+  modifyPermissions ::
+    GHC.IO.FilePath
+    -> (System.Directory.Internal.Common.Permissions
+        -> System.Directory.Internal.Common.Permissions)
+    -> GHC.Types.IO ()
+  {- Arity: 3, Strictness: <L,U><L,1*C1(U(1*U,1*U,1*U,1*U))><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                TestUtils.modifyPermissions1
+                  `cast`
+                (<GHC.IO.FilePath>_R
+                 ->_R <System.Directory.Internal.Common.Permissions
+                       -> System.Directory.Internal.Common.Permissions>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+475291425b858c04cd16ea0574f70c40
+  modifyPermissions1 ::
+    GHC.IO.FilePath
+    -> (System.Directory.Internal.Common.Permissions
+        -> System.Directory.Internal.Common.Permissions)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <L,U><L,1*C1(U(1*U,1*U,1*U,1*U))><S,U>,
+     Unfolding: (\ (path :: GHC.IO.FilePath)
+                   (modify :: System.Directory.Internal.Common.Permissions
+                              -> System.Directory.Internal.Common.Permissions)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case System.IO.Error.modifyIOError1
+                        @ System.Directory.Internal.Common.Permissions
+                        System.Directory.getPermissions2
+                        (System.Directory.Internal.Posix.getAccessPermissions1 path)
+                          `cast`
+                        (Sym (GHC.Types.N:IO[0]
+                                  <System.Directory.Internal.Common.Permissions>_R))
+                        s of ds2 { (#,#) ipv ipv1 ->
+                 System.IO.Error.modifyIOError1
+                   @ ()
+                   System.Directory.setPermissions2
+                   (\ (w2 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                    case modify
+                           ipv1 of ww { System.Directory.Internal.Common.Permissions ww1 ww2 ww3 ww4 ->
+                    System.Directory.Internal.Posix.$wsetAccessPermissions
+                      path
+                      ww1
+                      ww2
+                      ww3
+                      ww4
+                      w2 })
+                     `cast`
+                   (Sym (GHC.Types.N:IO[0] <()>_R))
+                   ipv }) -}
+5a39e400153d71a6998250bf014910b4
+  supportsSymlinks :: GHC.Types.IO GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                TestUtils.supportsSymlinks1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Types.Bool>_R)) -}
+628a82c2b9d2398eb25a3ed235237d28
+  supportsSymlinks1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Types.Bool #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case System.IO.Error.modifyIOError1
+                        @ ()
+                        System.Directory.createDirectoryLink3
+                        TestUtils.supportsSymlinks3 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))
+                        s of ds2 { (#,#) ipv ipv1 ->
+                 case System.Posix.Files.removeLink1
+                        TestUtils.supportsSymlinks_path
+                        ipv of ds3 { (#,#) ipv2 ipv3 ->
+                 (# ipv2, GHC.Types.True #) } }) -}
+5c24764c667ccf0a2cb79f1989ffa9bb
+  supportsSymlinks2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("_symlink_test.tmp"#) -}
+6c6d52e562498e0eccacea9c1ad037f0
+  supportsSymlinks3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (System.Posix.Files.createSymbolicLink1
+                   TestUtils.supportsSymlinks_path
+                   TestUtils.supportsSymlinks_path) -}
+bf8bb3d4d188dfbcedb5517c7368b00d
+  supportsSymlinks_path :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   TestUtils.supportsSymlinks2) -}
+0f577a4d84812bb98ecba4d6fe11a190
+  symlinkOrCopy ::
+    GHC.IO.FilePath -> GHC.IO.FilePath -> GHC.Types.IO ()
+  {- Arity: 3, Strictness: <L,U><L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                TestUtils.symlinkOrCopy1
+                  `cast`
+                (<GHC.IO.FilePath>_R
+                 ->_R <GHC.IO.FilePath>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+513efa7323bd101d27e6e5d2c3a99b61
+  symlinkOrCopy1 ::
+    GHC.IO.FilePath
+    -> GHC.IO.FilePath
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <L,U><L,U><S,U>,
+     Unfolding: (\ (target :: GHC.IO.FilePath)
+                   (link :: GHC.IO.FilePath)
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case GHC.Prim.catch#
+                        @ GHC.Types.Bool
+                        @ GHC.Exception.SomeException
+                        (System.Directory.doesDirectoryExist3
+                           (System.FilePath.Posix.combine
+                              (System.FilePath.Posix.takeDirectory link)
+                              target))
+                        System.Directory.doesDirectoryExist2
+                        eta of ds2 { (#,#) ipv ipv1 ->
+                 case ipv1 of wild {
+                   GHC.Types.False
+                   -> System.IO.Error.modifyIOError1
+                        @ ()
+                        System.Directory.createDirectoryLink3
+                        (System.Posix.Files.createSymbolicLink1
+                           (System.FilePath.Posix.normalise target)
+                           link)
+                          `cast`
+                        (Sym (GHC.Types.N:IO[0] <()>_R))
+                        ipv
+                   GHC.Types.True
+                   -> System.IO.Error.modifyIOError1
+                        @ ()
+                        System.Directory.createDirectoryLink6
+                        (\ (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                         System.IO.Error.modifyIOError1
+                           @ ()
+                           System.Directory.createDirectoryLink3
+                           (System.Posix.Files.createSymbolicLink1
+                              (System.FilePath.Posix.normalise target)
+                              link)
+                             `cast`
+                           (Sym (GHC.Types.N:IO[0] <()>_R))
+                           eta1)
+                          `cast`
+                        (Sym (GHC.Types.N:IO[0] <()>_R))
+                        ipv } }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

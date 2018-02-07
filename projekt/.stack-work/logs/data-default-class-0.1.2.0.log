@@ -1,0 +1,17 @@
+Configuring data-default-class-0.1.2.0...
+Preprocessing library for data-default-class-0.1.2.0..
+Building library for data-default-class-0.1.2.0..
+[1 of 1] Compiling Data.Default.Class ( Data/Default/Class.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Default/Class.o )
+Preprocessing library for data-default-class-0.1.2.0..
+Running Haddock on library for data-default-class-0.1.2.0..
+Haddock coverage:
+  67% (  2 /  3) in 'Data.Default.Class'
+  Missing documentation for:
+    Module header
+Warning: Data.Default.Class: could not find link destinations for:
+    GDefault
+Documentation created:
+.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/doc/html/data-default-class/index.html,
+.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/doc/html/data-default-class/data-default-class.txt
+Installing library in /home/mdronski/.stack/snapshots/x86_64-linux-nopie/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/data-default-class-0.1.2.0-8hmGYd6GPAfLQPQcWKOjRm
+Registering library for data-default-class-0.1.2.0..

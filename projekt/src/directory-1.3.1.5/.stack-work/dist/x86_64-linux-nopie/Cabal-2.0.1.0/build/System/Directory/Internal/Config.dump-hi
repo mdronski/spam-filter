@@ -1,0 +1,68 @@
+
+==================== FINAL INTERFACE ====================
+2018-01-07 17:56:25.053457688 UTC
+
+interface directory-1.3.1.5-JdmaiEqnzQB3mzsgSioc9g:System.Directory.Internal.Config 8022
+  interface hash: d37c2c9a3608909c82fac93065eab0e6
+  ABI hash: 21a75357b5cbd3fea640b4585b02374e
+  export-list hash: 152447f3204fb31ac27af5146600a052
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: ce0916eef348507af1a09bc97ccee9c7
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  System.Directory.Internal.Config.exeExtension
+module dependencies:
+package dependencies: base-4.10.1.0* ghc-prim-0.5.1.1
+                      integer-gmp-1.0.1.0
+orphans: base-4.10.1.0:GHC.Float base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Either base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Type.Equality base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+addDependentFile "HsDirectoryConfig.h"
+addDependentFile "/home/mdronski/.stack/programs/x86_64-linux/ghc-nopie-8.2.2/lib/ghc-8.2.2/include/ghcversion.h"
+addDependentFile ".stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/cabal_macros.h"
+addDependentFile "/usr/include/stdc-predef.h"
+9ccecd916cbbfcc26aacf6f64d4a89e1
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   System.Directory.Internal.Config.$trModule3
+                   System.Directory.Internal.Config.$trModule1) -}
+2dbf35537f3ce1da7e65d33dca90a085
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   System.Directory.Internal.Config.$trModule2) -}
+7cc89032e15e38328f108f0e5167b681
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("System.Directory.Internal.Config"#) -}
+7428eff9d0349d7426bcf967ab678824
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   System.Directory.Internal.Config.$trModule4) -}
+66ed37058825eb0913e79b69bb75138b
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("directory-1.3.1.5-JdmaiEqnzQB3mzsgSioc9g"#) -}
+4d64c3ce249d37c5ba64f70df4c3ade8
+  exeExtension :: GHC.Base.String
+  {- HasNoCafRefs,
+     Unfolding: InlineRule (0, True, True)
+                (GHC.Types.[] @ GHC.Types.Char) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

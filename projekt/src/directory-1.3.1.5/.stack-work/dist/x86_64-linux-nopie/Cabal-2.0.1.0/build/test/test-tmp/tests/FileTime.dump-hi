@@ -1,0 +1,95 @@
+
+==================== FINAL INTERFACE ====================
+2018-01-21 20:57:09.162476889 UTC
+
+interface main:FileTime 8022
+  interface hash: 1042c73c48de1d7899d4a0a58d713f9d
+  ABI hash: b5613fd2c0356288058fefa749da2a8b
+  export-list hash: 869e7f9bd18a637d5051a0c5a91c79e5
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 96cda4d171844b9c139a00e66ee6eec2
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  FileTime.main
+module dependencies: Util
+package dependencies: array-0.5.2.0 base-4.10.1.0* deepseq-1.4.3.0
+                      directory-1.3.1.5 filepath-1.4.1.2 ghc-prim-0.5.1.1
+                      integer-gmp-1.0.1.0 time-1.8.0.2 unix-2.7.2.2
+orphans: time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Complex base-4.10.1.0:Data.Either
+                         base-4.10.1.0:Data.Functor.Compose base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+import  -/  base-4.10.1.0:Data.Foldable 9ed87455d68e87ff2b5b8725eae9897e
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+import  -/  base-4.10.1.0:System.IO 6e5bb580370d8d71dc5888f723cea4b4
+import  -/  base-4.10.1.0:System.IO.Error 93d92b7da56c5ff8e1a9c831cb2a2e3f
+import  -/  directory-1.3.1.5:System.Directory 674a63b5dfd5e6dd78c98f0675c7b451
+import  -/  directory-1.3.1.5:System.Directory.Internal.Prelude 80f416161b0247624c76ff798606c39d
+import  -/  ghc-prim-0.5.1.1:GHC.Types b1fd0716441595db508c1a74387bf394
+import  -/  Util be2abed7083a51f4bdf8855a2d51cf9d
+  exports: bd6a289d318cbda8f1f2ee2253928220
+  TestEnv a2cda7416f6d830e42cdb7d432cd2a75
+  expectIOErrorType 50701796241c2da9bf16723bf0ab8f6b
+  expectNearTime cfd198af9a1436fbd2d02d060aa4f6fd
+import  -/  time-1.8.0.2:Data.Time.Clock 4a00926e887552bf2184b9495fd238f5
+import  -/  time-1.8.0.2:Data.Time.Clock.Internal.UTCDiff 65e91f53c7136fa33a35fff03f066598
+import  -/  time-1.8.0.2:Data.Time.Clock.POSIX 1e8d8ebbad0b17747c3a84a37c227dba
+addDependentFile "tests/util.inl"
+addDependentFile "/home/mdronski/.stack/programs/x86_64-linux/ghc-nopie-8.2.2/lib/ghc-8.2.2/include/ghcversion.h"
+addDependentFile ".stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/test/autogen/cabal_macros.h"
+addDependentFile "/usr/include/stdc-predef.h"
+41919670f54b0ec1c7def570b8b22172
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   FileTime.$trModule3
+                   FileTime.$trModule1) -}
+00c780ccee4023ebb0f760c58510927b
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS FileTime.$trModule2) -}
+3dc42e3efa173378204a9cbf4c95b102
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("FileTime"#) -}
+16282289a243cb0800948aeebf5e9eae
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS FileTime.$trModule4) -}
+a9605ac75fe1819c3eb0ae6f25511a0b
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+20dc78833a52fb10f211437d29adf117
+  main :: Util.TestEnv -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <L,1*U(U(U),U,A,A)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                FileTime.main1
+                  `cast`
+                (<Util.TestEnv>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+5b67e203dfe70516d543520f3b1415a6
+  main1 ::
+    Util.TestEnv
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,1*U(U(U),U,A,A)><S,U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

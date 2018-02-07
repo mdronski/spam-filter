@@ -1,0 +1,25 @@
+Configuring unliftio-core-0.1.0.0...
+Preprocessing library for unliftio-core-0.1.0.0..
+Building library for unliftio-core-0.1.0.0..
+[1 of 2] Compiling Control.Monad.IO.Unlift ( src/Control/Monad/IO/Unlift.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Control/Monad/IO/Unlift.o )
+[2 of 2] Compiling Paths_unliftio_core ( .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/Paths_unliftio_core.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Paths_unliftio_core.o )
+Preprocessing library for unliftio-core-0.1.0.0..
+Running Haddock on library for unliftio-core-0.1.0.0..
+Haddock coverage:
+ 100% (  8 /  8) in 'Control.Monad.IO.Unlift'
+   0% (  0 /  9) in 'Paths_unliftio_core'
+  Missing documentation for:
+    Module header
+    version (.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/Paths_unliftio_core.hs:28)
+    getBinDir (.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/Paths_unliftio_core.hs:39)
+    getLibDir (.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/Paths_unliftio_core.hs:39)
+    getDynLibDir (.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/Paths_unliftio_core.hs:39)
+    getDataDir (.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/Paths_unliftio_core.hs:39)
+    getLibexecDir (.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/Paths_unliftio_core.hs:39)
+    getDataFileName (.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/Paths_unliftio_core.hs:47)
+    getSysconfDir (.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/Paths_unliftio_core.hs:39)
+Documentation created:
+.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/doc/html/unliftio-core/index.html,
+.stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/doc/html/unliftio-core/unliftio-core.txt
+Installing library in /home/mdronski/.stack/snapshots/x86_64-linux-nopie/lts-10.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/unliftio-core-0.1.0.0-9rQX9ZUGZDTAHFduIwCNuu
+Registering library for unliftio-core-0.1.0.0..
